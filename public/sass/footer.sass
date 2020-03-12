@@ -1,0 +1,88 @@
+footer
+    background-color: $dark-green
+    // height: 200px
+    div.footer-inner
+        padding: 
+            top: 54px
+            bottom: 74px
+        div.datos-wrapper
+            display: flex
+            justify-content: space-between
+            div.item
+                // margin-top: 51px
+                // margin-left: 72px               
+                img
+                    width: 136px
+                    // height: 38px
+                    // margin-right: 204px
+            div.item 
+                // float: left
+                p
+                    color: white
+                    span
+                        font-weight: 700
+                    strong
+                    a
+                        color: white
+                        opacity: 1
+                        transition: all ease 0.3s
+                        &:hover
+                            opacity: 0.8
+    div.creditos
+        display: flex
+        justify-content: center
+        align-items: center
+        color: white
+        padding-bottom: 38px
+        p
+            color: #D5EAC9
+            img
+                width: 67px
+                // height: 19,61px
+                // margin:-3px 0px -6px 0px
+
+@media (max-width: 640px)
+    footer
+        // background-color: $dark-green
+        // height: 200px
+        div.footer-inner
+            padding: 
+                // top: 50px
+                bottom: 48px
+            div.datos-wrapper
+                // display: flex
+                flex-wrap: wrap
+                // justify-content: space-between
+                div.item
+                    width: 100%
+                    text-align: center
+                    // margin-top: 51px
+                    // margin-left: 72px               
+                    img
+                        // width: 136px
+                        // height: 38px
+                        // margin-right: 204px                        
+                    p                    
+                        // color: white
+                        // margin-right: 75px 
+                        // margin-bottom: 90px                
+                        a
+                            // color: white
+                    &:nth-child(1)
+                        margin-bottom: 24px
+                    &:nth-child(n+2)
+                        margin-bottom: 15px
+                    &:last-child
+                        margin-bottom: 0
+        div.creditos
+            // display: flex
+            // justify-content: center
+            // align-items: center
+            // color: white
+            // padding-bottom: 33px
+            p
+                // color: #D5EAC9
+                img
+                    // width: 67px
+                    // height: 19,61px
+                    // margin:-3px 0px -6px 0px
