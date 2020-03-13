@@ -328,28 +328,21 @@
                     <div class="checks">
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Indicadores de Rendimientos </p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>Reportes y Análisis especializados.</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>   Análisis y evaluación de Costos</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>    Integración de datos</p>
                         </div>
-                        <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
-                        <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
-                            <p>Lorem ipsum dolor sit amet</p>
-                        </div>
+
                     </div>
                 </div>
 
