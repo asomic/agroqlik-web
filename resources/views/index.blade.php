@@ -4,7 +4,7 @@
 @section('all')
 
     <!-- Modal Como obtener -->
-    <div class="modal modal-obtener">
+    <div class="modal modal-obtener" >
         <div class="modal-inner">
 
             <div class="img"></div>
@@ -12,7 +12,7 @@
             <div class="data">
                 <div class="x"></div>
                 <div class="header">
-                    <img src="{{asset('/images/hoja.png"')}}">
+                    <img src="{{asset('/images/hoja.png')}}">
                     <h3>¿Como obtener <span class="color-green">AgroQlik</span>?</h3>
                 </div>
                 <div class="cards">
@@ -125,7 +125,7 @@
     </header>
 
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" id="top">
         <div class="hero-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="400">
             <h1 class="hero"><span class="color-green">Tenga el control</span> de su mano de obra en terreno </h1>
             <p>Normalmente, el Costo de Mano de Obra representa alrededor del 60% - 70% del Costo Total.
@@ -133,7 +133,6 @@
             <a href="#" class="button button-plan-prueba">Pruebe Gratis</a>
         </div>
     </section>
-
     <!-- Presentación -->
     <section class="presentacion" >
         <div class="presentacion-inner paddings-l-r"  id="presentacion">
@@ -151,7 +150,7 @@
                 <!-- Item -->
                 <div class="item">
                     <div class="title">
-                        <img src=" {{asset('images/hoja.png')}}/">
+                        <img src=" {{asset('images/hoja.png')}}">
                         <h5>Equipo humano</h5>
                     </div>
                     <p>
@@ -273,15 +272,15 @@
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}} ">
                             <p>Asesoría en Control de Gestión</p>
                         </div>
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}">
                             <p>Análisis de “Captura de Mano de Obra” </p>
                         </div>
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}">
                             <p>Análisis de Liquidaciones de Exportadoras</p>
                         </div>
 
@@ -290,7 +289,7 @@
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                     <div class="header">
-                        <img src="         {{asset('')}}/images/servicio-rrss.png">
+                        <img src="{{asset('')}}/images/servicio-rrss.png">
                         <h5>Recursos Humanos</h5>
                     </div>
                     <div class="checks">
@@ -323,7 +322,7 @@
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="600">
                     <div class="header">
-                        <img src="{{asset('images/servicio-bi.png')}}/">
+                        <img src="{{asset('images/servicio-bi.png')}}">
                         <h5>Inteligencia de Negocios</h5>
                     </div>
                     <div class="checks">
@@ -599,5 +598,8 @@
                 <a href="" class="button button-plan-prueba">Contáctenos</a>
         </div>
     </section>
+
+
+
 
 @endsection

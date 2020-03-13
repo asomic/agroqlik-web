@@ -37,3 +37,5 @@
 </head>
 
 <body class="site-wrapper">
+
+    <main class="site-main">

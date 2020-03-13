@@ -97,5 +97,13 @@ $(document).ready(function(){
         return false;
     });
 
+    $(".goToUp").click(function() {
+        $([document.documentElement, document.body]).animate({
+
+            scrollTop: $("#top").offset().top
+
+        }, 3000);
+        return false;
+    });
 
 });
