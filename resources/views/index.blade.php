@@ -228,27 +228,29 @@
                 <div class="checks">
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Control de recurso humano en tiempo real</p>
+                        <p>Descubre ¿Qué esta pasando? y ¿Porqué?</p>
+                    </div>
+                    <div class="check">
+                        <img src="{{asset('/images/check.png')}}">
+                        <p>Control de Recurso Humano en tiempo real.</p>
                     </div>
 
                     <div class="check">
                        <img src=" {{asset('/images/check.png')}}">
-                        <p>Control de recurso humano en tiempo real</p>
+                        <p>Generar Optimizaciones y mejoras en sus resultados en base a datos.</p>
                     </div>
 
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Control de recurso humano en tiempo real</p>
+                        <p> Reportes diseñados según los casos y variables criticas.</p>
                     </div>
-
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Control de recurso humano en tiempo real</p>
+                        <p>Análiticas Descriptivas</p>
                     </div>
-
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Control de recurso humano en tiempo real</p>
+                        <p>Conocimiento de sus datos</p>
                     </div>
                 </div>
 
@@ -587,12 +589,9 @@
     <!-- CTA -->
     <section class="cta">
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <h1>¿Lorem ipsum dolor sit amet ante?</h1>
-                <a href="" class="button button-plan-prueba">Contáctenos</a>
+                <h1>Simplifica el control de tu mano de obra con Agroqlik</h1>
+                <a href="" class="button button-plan-prueba">Contáctanos</a>
         </div>
     </section>
-
-
-
 
 @endsection
