@@ -38,4 +38,9 @@
 
 <body class="site-wrapper">
 
+    {{-- UP --}}
+    <div class="goToUp">
+        <img src="{{asset('/images/up.svg')}}" class="up" alt="">
+    </div>
+
     <main class="site-main">

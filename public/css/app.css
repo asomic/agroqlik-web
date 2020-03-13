@@ -217,13 +217,23 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* set  */
+/* set */
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #F7FCF9;
   font-size: 15px;
   max-width: 100%;
   position: relative;
+}
+body .goToUp {
+  position: fixed;
+  z-index: 99999;
+  bottom: 5vh;
+  right: 3vw;
+  cursor: pointer;
+}
+body .goToUp img {
+  border-radius: 7px;
 }
 
 /* Fuentes */
@@ -698,7 +708,7 @@ header {
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: 9990;
+  z-index: 999;
   transition: all ease-in-out 0.3s;
 }
 header.on-down {
@@ -716,6 +726,7 @@ header .header-inner {
   justify-content: space-between;
   align-items: center;
   padding-top: 56px;
+  font-size: 20px;
 }
 header .header-inner a.logo img {
   width: 149px;
@@ -723,10 +734,6 @@ header .header-inner a.logo img {
 header .header-inner .hamburger {
   display: none;
 }
-header .header-inner div.buttons a.button.left {
-  margin-left: 5px;
-}
-
 @media (max-width: 1440px) {
   header .header-inner {
     padding-top: 48px;
@@ -1136,7 +1143,7 @@ section.servicios div.servicios-inner h2 {
   color: #F7FCF9;
   font-weight: 700;
   text-align: center;
-  width: 65%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
@@ -1189,6 +1196,7 @@ section.servicios div.servicios-inner div.items div.item div.checks div.check im
 @media (max-width: 1024px) {
   section.servicios div.servicios-inner h2 {
     padding-top: 90px;
+    width: 72%;
   }
   section.servicios div.servicios-inner div.items div.item {
     box-sizing: border-box;
@@ -1469,7 +1477,7 @@ section.testimonio div.testimonio-inner {
 }
 section.testimonio div.testimonio-inner div.item {
   text-align: center;
-  width: 40%;
+  width: 59%;
 }
 section.testimonio div.testimonio-inner div.item div.img {
   margin-bottom: 22px;
@@ -1496,7 +1504,7 @@ section.testimonio div.testimonio-inner div.item p {
 
 @media (max-width: 1024px) {
   section.testimonio div.testimonio-inner div.item {
-    width: 42%;
+    width: 65%;
   }
 }
 @media (max-width: 768px) {

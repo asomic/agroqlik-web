@@ -39,10 +39,6 @@
         </div>
 
     </footer>
-{{-- UP --}}
-        <div class="goToUp">
-            <img src="{{asset('/images/up.svg')}}" alt="">
-        </div>
 
 
 
