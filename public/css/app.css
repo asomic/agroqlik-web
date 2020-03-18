@@ -740,43 +740,9 @@ header .header-inner div.buttons div.menu a {
 header .header-inner .hamburger {
   display: none;
 }
-header.is-fixed {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background: white;
-  z-index: 99999;
-}
-header.is-fixed div.menu a.menuu {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
 @media (max-width: 1440px) {
   header .header-inner {
     padding-top: 48px;
-  }
-}
-@media (max-width: 430px) {
-  header .header-inner div.buttons {
-    height: 100%;
-  }
-  header .header-inner div.buttons div.menu {
-    display: block;
-    margin-bottom: 10px;
-  }
-  header .header-inner div.buttons div.menu a.menuu {
-    padding-bottom: 29px;
-    padding-top: 10px;
-  }
-  header .header-inner div.buttons div.menu a.menuu:last-child {
-    padding-bottom: 0px;
-  }
-  header .header-inner div.buttons.open-buttons {
-    padding-top: 130px;
-  }
-  header .header-inner div.buttons a.button {
-    margin-bottom: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -785,7 +751,6 @@ header.is-fixed div.menu a.menuu {
     padding-bottom: 0;
   }
   header .header-inner {
-    padding-top: 48px;
     flex-wrap: wrap;
   }
   header .header-inner a.logo img {
@@ -824,6 +789,33 @@ header.is-fixed div.menu a.menuu {
     margin-bottom: 10px;
     padding-bottom: 10px;
   }
+  header.is-fixed {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: white;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  header.is-fixed .header-inner {
+    align-items: stretch;
+    align-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  header.is-fixed .header-inner div.menu {
+    padding: 0;
+  }
+  header.is-fixed .header-inner div.menu a.menuu {
+    display: inline-block;
+    margin-right: 0;
+    margin: 16px 0;
+  }
 }
 @media (max-width: 640px) {
   header .header-inner div.buttons div.menu {
@@ -842,12 +834,22 @@ header.is-fixed div.menu a.menuu {
   header .header-inner div.buttons a.button.left {
     margin-top: 10px;
   }
-}
-@media (max-width: 378px) {
-  header .header-inner {
-    padding-top: 42px;
+  header.is-fixed .header-inner .buttons a.button {
+    box-sizing: border-box;
+    width: 100%;
   }
-  header .header-inner a.logo img {
+}
+@media (max-width: 430px) {
+  header .header-inner div.buttons div.menu {
+    display: block;
+  }
+  header .header-inner div.buttons div.menu a.menuu:last-child {
+    padding-bottom: 0px;
+  }
+  header .header-inner div.buttons.open-buttons {
+    padding-top: 0;
+  }
+  header .header-inner div.buttons a.button {
     margin-bottom: 10px;
   }
 }

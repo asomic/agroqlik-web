@@ -387,10 +387,10 @@
 
                     </div>
                     <div class="data">
-                        <h5>Susana Álvarez "Ejecutiva senior"</h5>
+                        <h5>Susana Álvarez</h5>
                         <br>
                         <p class="description">
-                            Senior en Recursos Humanos
+                            Ejecutiva senior
                         </p>
                         <p>
                             Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos,
