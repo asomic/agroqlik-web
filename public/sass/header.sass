@@ -38,11 +38,10 @@ header
                 &.left
     &.is-fixed
         width: 100vw
-        height: 50vh
+        height: 100vh
         position: fixed
         background: white
         z-index: 99999
-
         div.menu
 
             a.menuu
@@ -85,13 +84,16 @@ header
                 img
                     // width: 120px
             div.buttons
-
-
+                height: 100%
                 div.menu
                     display: block
-
-
+                    margin-bottom: 10px
                     a.menuu
+                        padding-bottom: 29px
+                        padding-top: 10px
+                        &:last-child
+                            padding-bottom: 0px
+
             .hamburger
                 // display: inherit
             div.buttons
@@ -109,16 +111,15 @@ header
                 // transition: all ease 0.3s
                 &.open-buttons
                     // height: 38px
-                    // margin-bottom: 24px
+                    padding-top: 130px
 
                 a.button
 
                     // width: 100%
                     // padding-top: 10px
                     // padding-bottom: 10px
+                    margin-bottom:  10px
                     &.left
-
-
 @media (max-width: 768px)
     header
         // width: 100%
@@ -140,7 +141,8 @@ header
             div.buttons
                 div.menu
                     width: 100%
-                    margin-top: 10px
+                    padding-bottom: 29px
+                    padding-top: 10px
                     display: block
                     a
             .hamburger
@@ -164,6 +166,7 @@ header
                 a.button
                     width: 90%
                     padding-top: 10px
+                    margin-bottom:  10px
                     padding-bottom: 10px
                     &.left
 
@@ -213,13 +216,13 @@ header
                     justify-content: normal
                     // margin-bottom: 24px
                 a.button
-                        width: 90%
+                        width: 85%
                         font-size: 23px
                         &.left
                             margin-top: 10px
 
 
-@media (max-width: 375px)
+@media (max-width: 378px)
     header
         .header-inner
             // flex-wrap: wrap
@@ -243,8 +246,9 @@ header
             //     transition: all ease 0.3s
             //     &.open-buttons
             //         height: 38px
-            //     a.button
-            //         width: 100%
+            //    a.button
+
+                    width: 85%
             //         padding-top: 10px
             //         padding-bottom: 10px
             //         &.left

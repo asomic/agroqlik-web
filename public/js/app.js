@@ -7,13 +7,12 @@
       $('header').toggleClass('is-fixed', 100);
     });
 
-    if ($(document).width() <= 768) {
     $('#GoApp, #GoServicios, #GoEquipo, #GoPlanes').click(function(){
         $('header').toggleClass('is-fixed', 100);
         $('.hamburger').toggleClass('is-active');
         $('.buttons').toggleClass('open-buttons', 100);
     })
-}
+
 
     $('.button-plan-info').click(function(){
       $('.modal-obtener').addClass('show-modal');

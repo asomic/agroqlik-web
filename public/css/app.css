@@ -742,7 +742,7 @@ header .header-inner .hamburger {
 }
 header.is-fixed {
   width: 100vw;
-  height: 50vh;
+  height: 100vh;
   position: fixed;
   background: white;
   z-index: 99999;
@@ -758,8 +758,25 @@ header.is-fixed div.menu a.menuu {
   }
 }
 @media (max-width: 430px) {
+  header .header-inner div.buttons {
+    height: 100%;
+  }
   header .header-inner div.buttons div.menu {
     display: block;
+    margin-bottom: 10px;
+  }
+  header .header-inner div.buttons div.menu a.menuu {
+    padding-bottom: 29px;
+    padding-top: 10px;
+  }
+  header .header-inner div.buttons div.menu a.menuu:last-child {
+    padding-bottom: 0px;
+  }
+  header .header-inner div.buttons.open-buttons {
+    padding-top: 130px;
+  }
+  header .header-inner div.buttons a.button {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -776,7 +793,8 @@ header.is-fixed div.menu a.menuu {
   }
   header .header-inner div.buttons div.menu {
     width: 100%;
-    margin-top: 10px;
+    padding-bottom: 29px;
+    padding-top: 10px;
     display: block;
   }
   header .header-inner .hamburger {
@@ -803,6 +821,7 @@ header.is-fixed div.menu a.menuu {
   header .header-inner div.buttons a.button {
     width: 90%;
     padding-top: 10px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
   }
 }
@@ -817,14 +836,14 @@ header.is-fixed div.menu a.menuu {
     justify-content: normal;
   }
   header .header-inner div.buttons a.button {
-    width: 90%;
+    width: 85%;
     font-size: 23px;
   }
   header .header-inner div.buttons a.button.left {
     margin-top: 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 378px) {
   header .header-inner {
     padding-top: 42px;
   }
