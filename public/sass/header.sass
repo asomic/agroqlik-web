@@ -23,13 +23,42 @@ header
         a.logo
             img
                 width: 149px
+        div.buttons
+            font-weight: bold
+            div.menu
+                a
+                    margin-right: 45px
+                    width: 100%
         .hamburger
             display: none
+
         div.buttons
             a.button
+
                 &.left
-    // div.menu-inner
-    //         background-color: red()
+    &.is-fixed
+        width: 100vw
+        height: 100vh
+        position: fixed
+        background: white
+        z-index: 99999
+        div.menu
+
+            a.menuu
+               display: inline-block
+               margin-bottom: 20px
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Cuando sea menor a 1440px
@@ -39,12 +68,69 @@ header
             padding-top: 48px
             a.logo
                 img
+
+
             .hamburger
             div.buttons
                 a.button
                     &.left
 
-@media (max-width: 640px)
+
+
+@media (max-width: 430px)
+    header
+        // width: 100%
+        &.on-down
+            .header-inner
+                // padding-top: 24px
+                // padding-bottom: 0
+        .header-inner
+            // width: 100%
+            // box-sizing: border-box
+            // display: flex
+            // justify-content: space-between
+            // align-items: center
+            // padding-top: 48px
+            // flex-wrap: wrap
+            a.logo
+                img
+                    // width: 120px
+            div.buttons
+
+
+                div.menu
+                    display: block
+
+
+                    a.menuu
+            .hamburger
+                // display: inherit
+            div.buttons
+                // display: block
+                div.menu
+                // display: flex
+                // justify-content: space-between
+                // align-items: flex-start
+                // text-align: center
+                // height: auto
+                // padding-top: 24px
+                // overflow: hidden
+                // width: 100%
+                // height: 0px
+                // transition: all ease 0.3s
+                &.open-buttons
+                    // height: 38px
+                    // margin-bottom: 24px
+
+                a.button
+
+                    // width: 100%
+                    // padding-top: 10px
+                    // padding-bottom: 10px
+                    &.left
+
+
+@media (max-width: 768px)
     header
         // width: 100%
         &.on-down
@@ -62,6 +148,12 @@ header
             a.logo
                 img
                     width: 120px
+            div.buttons
+                div.menu
+                    width: 100%
+                    margin-top: 10px
+                    display: block
+                    a
             .hamburger
                 display: inherit
             div.buttons
@@ -70,19 +162,71 @@ header
                 align-items: flex-start
                 text-align: center
                 height: auto
-                padding-top: 24px
+                padding-top: 10px
                 overflow: hidden
                 width: 100%
                 height: 0px
                 transition: all ease 0.3s
                 &.open-buttons
                     height: 38px
-                    margin-bottom: 24px
+                    // margin-bottom: 24px
                 a.button
                     width: 100%
                     padding-top: 10px
                     padding-bottom: 10px
                     &.left
+
+
+@media (max-width: 640px)
+    header
+        // width: 100%
+        &.on-down
+            .header-inner
+                // padding-top: 24px
+                // padding-bottom: 0
+        .header-inner
+            // width: 100%
+            // box-sizing: border-box
+            // display: flex
+            // justify-content: space-between
+            // align-items: center
+            // padding-top: 48px
+            // flex-wrap: wrap
+            a.logo
+                img
+                    // width: 120px
+            div.buttons
+                div.menu
+                    // width: 100%
+                    // margin-top: 10px
+                    // display: block
+                    font-size: 20px
+                    a
+            .hamburger
+                // display: inherit
+            div.buttons
+                // display: flex
+                // justify-content: space-between
+                // align-items: flex-start
+                // text-align: center
+                // height: auto
+                // padding-top: 10px
+                // overflow: hidden
+                // width: 100%
+                // height: 0px
+                // transition: all ease 0.3s
+                &.open-buttons
+                    margin-top: 10px
+                    height: auto
+                    display: inline-grid
+                    justify-content: normal
+                    // margin-bottom: 24px
+                a.button
+                        width: 90%
+                        font-size: 20px
+                        &.left
+                            margin-top: 10px
+
 
 @media (max-width: 375px)
     header
@@ -92,6 +236,8 @@ header
             padding-top: 42px
             a.logo
                 img
+                    margin-bottom: 10px
+
                     // width: 110px
             // div.buttons
             //     display: flex

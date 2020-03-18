@@ -3,7 +3,8 @@
     // Menú
     $('.hamburger').click(function(){
       $(this).toggleClass('is-active');
-      $('.buttons').toggleClass('open-buttons', 100)
+      $('.buttons').toggleClass('open-buttons', 100);
+      $('header').toggleClass('is-fixed', 100);
     });
 
     $('.button-plan-info').click(function(){

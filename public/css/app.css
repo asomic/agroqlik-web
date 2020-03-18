@@ -730,15 +730,39 @@ header .header-inner {
 header .header-inner a.logo img {
   width: 149px;
 }
+header .header-inner div.buttons {
+  font-weight: bold;
+}
+header .header-inner div.buttons div.menu a {
+  margin-right: 45px;
+  width: 100%;
+}
 header .header-inner .hamburger {
   display: none;
 }
+header.is-fixed {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: white;
+  z-index: 99999;
+}
+header.is-fixed div.menu a.menuu {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1440px) {
   header .header-inner {
     padding-top: 48px;
   }
 }
-@media (max-width: 640px) {
+@media (max-width: 430px) {
+  header .header-inner div.buttons div.menu {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
   header.on-down .header-inner {
     padding-top: 24px;
     padding-bottom: 0;
@@ -750,6 +774,11 @@ header .header-inner .hamburger {
   header .header-inner a.logo img {
     width: 120px;
   }
+  header .header-inner div.buttons div.menu {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+  }
   header .header-inner .hamburger {
     display: inherit;
   }
@@ -759,7 +788,7 @@ header .header-inner .hamburger {
     align-items: flex-start;
     text-align: center;
     height: auto;
-    padding-top: 24px;
+    padding-top: 10px;
     overflow: hidden;
     width: 100%;
     height: 0px;
@@ -767,7 +796,6 @@ header .header-inner .hamburger {
   }
   header .header-inner div.buttons.open-buttons {
     height: 38px;
-    margin-bottom: 24px;
   }
   header .header-inner div.buttons a.button {
     width: 100%;
@@ -775,9 +803,30 @@ header .header-inner .hamburger {
     padding-bottom: 10px;
   }
 }
+@media (max-width: 640px) {
+  header .header-inner div.buttons div.menu {
+    font-size: 20px;
+  }
+  header .header-inner div.buttons.open-buttons {
+    margin-top: 10px;
+    height: auto;
+    display: inline-grid;
+    justify-content: normal;
+  }
+  header .header-inner div.buttons a.button {
+    width: 90%;
+    font-size: 20px;
+  }
+  header .header-inner div.buttons a.button.left {
+    margin-top: 10px;
+  }
+}
 @media (max-width: 375px) {
   header .header-inner {
     padding-top: 42px;
+  }
+  header .header-inner a.logo img {
+    margin-bottom: 10px;
   }
 }
 section.hero {

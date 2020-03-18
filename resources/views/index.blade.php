@@ -6,9 +6,7 @@
     <!-- Modal Como obtener -->
     <div class="modal modal-obtener" >
         <div class="modal-inner">
-
             <div class="img"></div>
-
             <div class="data">
                 <div class="x"></div>
                 <div class="header">
@@ -101,25 +99,23 @@
             <a href="/" class="logo">
                 <img src=" {{asset('/images/logo.png')}}" alt="Ir al Inicio">
             </a>
-            <div class="menu">
 
-                <a href="#"  id="GoApp">APP</a>
-                <a href="#" id="GoServicios" >Servicios</a>
-                <a href="#" id="GoEquipo" >Equipo</a>
-                <a href="#" id="GoPlanes" >Planes</a>
-
-
-
-
-            </div>
             <button class="hamburger hamburger--collapse" type="button">
                 <span class="hamburger-box">
                   <span class="hamburger-inner"></span>
                 </span>
             </button>
             <div class="buttons">
+                <div class="menu">
+                    <a href="#" class="menuu  " id="GoApp">APP</a>
+                    <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
+                    <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
+                    <a href="#" class="menuu" id="GoPlanes" >Planes</a>
+                 </div>
+            </div>
+            <div class="buttons">
                 <a href="#" class="button outline">Iniciar Sesión</a>
-                <a href="#" class="button left button-plan-prueba">Prueba Gratis</a>
+                <a href="#" class="button left button-plan-prueba">Contacto</a>
             </div>
         </div>
     </header>
@@ -390,7 +386,7 @@
 
                     </div>
                     <div class="data">
-                        <h5>Susana Álvarez</h5>
+                        <h5>Susana Álvarez "Ejecutiva senior"</h5>
                         <br>
                         <p class="description">
                             Senior en Recursos Humanos
@@ -422,7 +418,7 @@
                     <img src=" {{asset('/images/test-1.jpg')}}" alt="">
                 </div>
                 <h4>
-                    “ Con AgroQlick obtengo datos,
+                    “ Con AgroQlik obtengo datos,
                      análisis e información para tomar decisiones acertadas y lograr la mejor producción ”
                 </h4>
                 <h6>Jaime Berenguer</h6>
