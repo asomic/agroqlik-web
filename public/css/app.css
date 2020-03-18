@@ -742,7 +742,7 @@ header .header-inner .hamburger {
 }
 header.is-fixed {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   position: fixed;
   background: white;
   z-index: 99999;
@@ -795,10 +795,13 @@ header.is-fixed div.menu a.menuu {
     transition: all ease 0.3s;
   }
   header .header-inner div.buttons.open-buttons {
-    height: 38px;
+    margin-top: 10px;
+    height: auto;
+    display: inline-grid;
+    justify-content: normal;
   }
   header .header-inner div.buttons a.button {
-    width: 100%;
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -815,7 +818,7 @@ header.is-fixed div.menu a.menuu {
   }
   header .header-inner div.buttons a.button {
     width: 90%;
-    font-size: 20px;
+    font-size: 23px;
   }
   header .header-inner div.buttons a.button.left {
     margin-top: 10px;

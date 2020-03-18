@@ -106,7 +106,7 @@
                 </span>
             </button>
             <div class="buttons">
-                <div class="menu">
+                <div class="menu" id="mobil-menu">
                     <a href="#" class="menuu  " id="GoApp">APP</a>
                     <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
                     <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
@@ -116,6 +116,7 @@
             <div class="buttons">
                 <a href="#" class="button outline">Iniciar Sesión</a>
                 <a href="#" class="button left button-plan-prueba">Contacto</a>
+
             </div>
         </div>
     </header>

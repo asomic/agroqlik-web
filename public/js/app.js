@@ -7,6 +7,14 @@
       $('header').toggleClass('is-fixed', 100);
     });
 
+    if ($(document).width() <= 768) {
+    $('#GoApp, #GoServicios, #GoEquipo, #GoPlanes').click(function(){
+        $('header').toggleClass('is-fixed', 100);
+        $('.hamburger').toggleClass('is-active');
+        $('.buttons').toggleClass('open-buttons', 100);
+    })
+}
+
     $('.button-plan-info').click(function(){
       $('.modal-obtener').addClass('show-modal');
       return false;
@@ -46,25 +54,18 @@ $(document).ready(function(){
     $("#GoApp").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#APP").offset().top
+            scrollTop: $("#APP").offset().top-80
         }, 1500);
 
         return false;
     });
 
-    $("#GoWeb").click(function() {
-        $('html, body').toggleClass('lock-scroll')
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#WEB").offset().top
-        }, 1500);
 
-        return false;
-    });
 
     $("#GoServicios").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#servicio").offset().top
+            scrollTop: $("#servicio").offset().top-20
         }, 1500);
 
         return false;
@@ -73,7 +74,7 @@ $(document).ready(function(){
     $("#GoEquipo").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#equipo").offset().top
+            scrollTop: $("#equipo").offset().top-20
         }, 1500);
 
         return false;
@@ -82,28 +83,19 @@ $(document).ready(function(){
     $("#GoPlanes").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#planes").offset().top
+            scrollTop: $("#planes").offset().top-20
         }, 1500);
 
         return false;
     });
 
-
-    $("#GoPlanes").click(function() {
-        $('html, body').toggleClass('lock-scroll')
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#planes").offset().top
-        }, 1500);
-
-        return false;
-    });
 
     $(".goToUp").click(function() {
         $([document.documentElement, document.body]).animate({
 
             scrollTop: $("#top").offset().top
 
-        }, 1000);
+        }, 2000);
         return false;
     });
 
