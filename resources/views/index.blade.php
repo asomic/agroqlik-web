@@ -191,15 +191,11 @@
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Cantidad de jornadas pagadas</p>
+                        <p>Cantidad de jornadas pagadas.</p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>La Cantidad de Jornales Pagada</p>
-                    </div>
-                    <div class="item">
-                        <img src="{{asset('/images/check.png')}}">
-                        <p>Total ganado por trabajador</p>
+                        <p>Total ganado por trabajador.</p>
                     </div>
                 </div>
                 <div class="buttons">
@@ -242,11 +238,11 @@
                     </div>
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Análiticas Descriptivas</p>
+                        <p>Análiticas Descriptivas.</p>
                     </div>
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Conocimiento de sus datos</p>
+                        <p>Conocimiento de sus datos.</p>
                     </div>
                 </div>
 
@@ -279,7 +275,7 @@
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Análisis de Liquidaciones de Exportadoras</p>
+                            <p>Análisis de Liquidaciones de Exportadora</p>
                         </div>
 
                     </div>
