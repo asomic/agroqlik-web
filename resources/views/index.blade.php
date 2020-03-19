@@ -384,7 +384,7 @@
                         <h5>Susana Álvarez</h5>
                         <br>
                         <p class="description">
-                            Ejecutiva Senior
+                            Ejecutiva Senior.<br>
                             Recursos Humanos.
                         </p>
                         <p>
