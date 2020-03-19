@@ -24,11 +24,11 @@
     <link rel="icon" type="image/png" href="{{ asset('/favicons/favicon-128.png')}}" sizes="128x128" />
     <meta name="application-name" content="AgroQlik"/>
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="assets/favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="assets/favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="assets/favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="assets/favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="assets/favicons/mstile-310x310.png" />
+    <meta name="msapplication-TileImage" content="{{ asset('favicons/mstile-144x144.png')}}" />
+    <meta name="msapplication-square70x70logo" content="{{ asset('favicons/mstile-70x70.png')}}" />
+    <meta name="msapplication-square150x150logo" content="{{ asset('favicons/mstile-150x150.png')}}" />
+    <meta name="msapplication-wide310x150logo" content="{{ asset('favicons/mstile-310x150.png')}}" />
+    <meta name="msapplication-square310x310logo" content="{{ asset('favicons/mstile-310x310.png')}}" />
     <!-- Estilos -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" rel="stylesheet">
