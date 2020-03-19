@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- #Fin viewport -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AgroQlik - Por y para Profesionales del Agro</title>
+    <title>AgroQlik - Aplicación Móvil para Profesionales del Agro.</title>
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicons/apple-touch-icon-114x114.png" />
