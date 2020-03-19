@@ -385,7 +385,8 @@
                         <h5>Susana Álvarez</h5>
                         <br>
                         <p class="description">
-                            Ejecutiva senior
+                            Ejecutiva Senior
+                            Recursos Humanos.
                         </p>
                         <p>
                             Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos,
