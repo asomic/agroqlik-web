@@ -392,7 +392,7 @@
                             Administración.
                         </p>
                         <p>
-                            Sénior en Recursos Humanos en empresa de retail, Asistente en Viña "Requingua"
+                            Sénior en Recursos Humanos en empresa de retail, Asistente en Viña "Requingua".
                         </p>
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
