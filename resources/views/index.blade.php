@@ -174,25 +174,24 @@
                 <div class="items">
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>Con la APP AgroQlik puede controlar al detalle
-                            y en linea los costos de Mano de Obra
+                        <p>Con la App AgroQlik puede controlar al detalle y en linea los costos de mano de obra.
                         </p>
                     </div>
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>Gestionar para generar optimizaciones y mejoras en sus resultados</p>
+                        <p>Controlar la asistencia de sus trabajadores.</p>
                     </div>
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>La Asistencia de su Personal</p>
+                        <p>Datos claves de los centros de costos.</p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Los Costos por Labores</p>
+                        <p>Obtener los costos por labores en tiempo oportuno.</p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Los Costos por cada Centro d Costo Productivo</p>
+                        <p>Cantidad de jornadas pagadas</p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
@@ -200,7 +199,7 @@
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>El Total ganado por cada uno de los Trabajadores</p>
+                        <p>Total ganado por trabajador</p>
                     </div>
                 </div>
                 <div class="buttons">
@@ -363,7 +362,7 @@
                         <h5>Paulo Sánchez:</h5>
                         <br>
                         <p class="description">
-                           Socio Director y Fundador de AgroQlik<br>Ingeniero & MBA,<br>
+                          Fundador de AgroQlik<br>Ingeniero & MBA,<br>
                             Certificado en Qlikview
                         </p>
                         <p>
@@ -586,7 +585,7 @@
     <!-- CTA -->
     <section class="cta">
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <h1>Simplifica el control de tu mano de obra con Agroqlik</h1>
+                <h1>Simplifica el control de tu mano de obra con AgroQlik</h1>
                 <a href="" class="button button-plan-prueba">Contáctanos</a>
         </div>
     </section>
