@@ -379,7 +379,6 @@
                 <!-- Persona -->
                 <div class="persona" data-aos="fade-left" data-aos-duration="1000">
                     <div class="img susana">
-
                     </div>
                     <div class="data">
                         <h5>Susana Álvarez</h5>
@@ -424,7 +423,6 @@
             </div>
         </div>
     </section>
-
     <!-- Planes -->
     <section class="planes-wrapper" >
         <div class="planes-inner paddings-l-r" id="planes">
