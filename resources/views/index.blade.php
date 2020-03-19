@@ -141,7 +141,7 @@
                         <img src="{{asset('/images/hoja.png')}}">
                         <h5>Herramientas Digitales</h5>
                     </div>
-                    <p>Agroqlik, APP de Captura de Mano de Obra
+                    <p>AgroQlik, APP de Captura de Mano de Obra.
                     </p>
                 </div>
                 <!-- Item -->
@@ -151,7 +151,7 @@
                         <h5>Equipo humano</h5>
                     </div>
                     <p>
-                       Profesionales con mas de 20 años de experiencia en el agro
+                       Profesionales con mas de 20 años de experiencia en el agro.
                     </p>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                 <div class="checks">
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Descubre ¿Qué esta pasando? y ¿Porqué?</p>
+                        <p>Descubre ¿Qué esta pasando? y ¿Porqué?.</p>
                     </div>
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
@@ -267,15 +267,15 @@
                     <div class="checks">
                         <div class="check">
                             <img src=" {{asset('/images/check.png')}} ">
-                            <p>Asesoría en Control de Gestión</p>
+                            <p>Asesoría en Control de Gestión.</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Análisis de “Captura de Mano de Obra” </p>
+                            <p>Análisis de “Captura de Mano de Obra”. </p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Análisis de Liquidaciones de Exportadora</p>
+                            <p>Análisis de Liquidaciones de Exportadora.</p>
                         </div>
 
                     </div>
@@ -289,27 +289,27 @@
                     <div class="checks">
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Redacción de contratos individuales y pactos colectivos</p>
+                            <p>Redacción de contratos individuales y pactos colectivos.</p>
                         </div>
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Proceso de cálculo de remuneraciones y leyes sociales</p>
+                            <p>Proceso de cálculo de remuneraciones y leyes sociales.</p>
                         </div>
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Desvinculaciones y elaboración de finiquitos</p>
+                            <p>Desvinculaciones y elaboración de finiquitos.</p>
                         </div>
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Redacción de reglamentos internos</p>
+                            <p>Redacción de reglamentos internos.</p>
                         </div>
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Subcontratación y tercerización de servicios </p>
+                            <p>Subcontratación y tercerización de servicios. </p>
                         </div>
                         <div class="check">
                             <img src="         {{asset('/images/check.png')}}">
-                            <p>Control de vacaciones y permisos del personal</p>
+                            <p>Control de vacaciones y permisos del personal.</p>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Indicadores de Rendimientos </p>
+                            <p>Indicadores de Rendimientos. </p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
@@ -330,11 +330,11 @@
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>   Análisis y evaluación de Costos</p>
+                            <p>   Análisis y evaluación de Costos.</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>    Integración de datos</p>
+                            <p>    Integración de datos.</p>
                         </div>
 
                     </div>
