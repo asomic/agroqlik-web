@@ -73,7 +73,6 @@
                     <h3>Solicita <span class="color-green">AgroQlik</span></h3>
                 </div>
 
-
                 <form class="form" action="{{ route('ruta') }}" method="POST">
                     @csrf
                     <input type="text" name="name" placeholder="Nombre" required>
@@ -84,9 +83,6 @@
                     <input type="text" name="region" placeholder="Región" required>
                     <input type="submit" name="enviarContacto" value="Quiero la prueba gratis" id="formulario-enviar" required>
                 </form>
-
-
-
 
             </div>
 
@@ -105,10 +101,10 @@
                   <span class="hamburger-inner"></span>
                 </span>
             </button>
-            <div class="buttons">
-
+            <div class="menu-wrapper">
                 <div class="menu" id="mobil-menu">
-                    <a href="#" class="menuu  " id="GoApp">APP</a>
+                    <a href="#" class="menuu" id="GoApp">App</a>
+                    <a href="#" class="menuu" id="GoPlataforma">Plataforma</a>
                     <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
                     <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
                     <a href="#" class="menuu" id="GoPlanes" >Planes</a>
@@ -162,7 +158,7 @@
 
     <!-- Presentacion de la App -->
     <section class="the-app">
-        <div class="the-app-inner paddings-l-r"  id="APP">
+        <div class="the-app-inner paddings-l-r"  id="app">
             <div class="img" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <img src=" {{asset('/images/app-mockup.png')}}" alt="App de NFIT">
             </div>
@@ -213,7 +209,7 @@
 
     <!-- Presentacion de la Web App -->
     <section class="the-webapp">
-        <div class="the-webapp-inner paddings-l-r">
+        <div class="the-webapp-inner paddings-l-r" id="plataforma">
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                 <h3 class="h">Con AgroQlik registramos sus datos<span class="color-green"> y con Qlikview, convertimos en Información</span>  para la toma de decisiones.
 
@@ -256,7 +252,7 @@
 
     <!-- Los Servicios -->
     <section class="servicios ">
-        <div class="servicios-inner paddings-l-r"  id="servicio">
+        <div class="servicios-inner paddings-l-r" id="servicio">
             <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes área</h2>
             <div class="items">
                 <!-- Item -->
@@ -356,10 +352,10 @@
 
                     </div>
                     <div class="data">
-                        <h5>Paulo Sánchez:</h5>
+                        <h5>Paulo Sánchez</h5>
                         <br>
                         <p class="description">
-                          Fundador de AgroQlik<br>Ingeniero & MBA,<br>
+                          Fundador de AgroQlik<br>Ingeniero & MBA<br>
                             Certificado en Qlikview
                         </p>
                         <p>
@@ -385,7 +381,7 @@
                         <h5>Susana Álvarez</h5>
                         <br>
                         <p class="description">
-                            Ejecutiva Senior, Recursos Humanos.
+                            Ejecutiva Senior<br>Recursos Humanos.
                         </p>
                         <p>
                             Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos,

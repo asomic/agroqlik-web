@@ -1,266 +1,208 @@
 header
     width: 100%
+    height: 100px
     position: absolute
+    overflow: hidden
+    box-sizing: border-box
     top: 0
-    // left: 0
-    // right: 0
     z-index: 999
     transition: all ease-in-out 0.3s
     &.on-down
         position: fixed
         background: white
+        height: 72px
         .header-inner
             padding-top: 24px
-            padding-bottom: 24px
+            padding-bottom: 24px 
     .header-inner
+        overflow: hidden
         width: 100%
+        height: 100%
         box-sizing: border-box
         display: flex
+        flex-wrap: wrap
         justify-content: space-between
         align-items: center
+        align-content: space-between
         padding-top: 56px
-        // font-size: 20px
         a.logo
             img
-                width: 149px
+                width: 130px
         div.buttons
-            font-weight: bold
-            div.menu
-                a
-                    margin-right: 45px
-                    width: 100%
-        .hamburger
-            display: none
-
-        div.buttons
+            width: 100%
+            opacity: 0
+            visibility: hidden
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+            a
+                width: 100%
+                text-align: center
+                font-weight: 700
+                padding: 12px 0
+            &.open-buttons
+                padding-top: 0
+                opacity: 1
+                visibility: visible
             a.button
-
+                margin-bottom:  10px
                 &.left
-
-
-// Cuando sea menor a 1440px
-@media (max-width: 1440px)
-    header
+        .menu-wrapper
+            width: 100%
+            opacity: 0
+            visibility: hidden
+            &.open-menu
+                opacity: 1
+                visibility: visible
+            div.menu
+                // display: block
+                width: 100%
+                text-align: center
+                a.menuu
+                    display: block
+                    margin: 16px 0
+                    font-size: 19px
+                    font-weight: 600
+                    outline: none
+                    &:last-child
+                        padding-bottom: 0px
+        .hamburger
+    &.is-fixed
+        height: 100vh !important
+        background: white
         .header-inner
-            padding-top: 48px
-            a.logo
-                img
-
-
-            .hamburger
-            div.buttons
-                a.button
-                    &.left
-
-
-
-@media (max-width: 768px)
+            padding-bottom: 26px
+    
+@media (min-width: 768px)
     header
-        // width: 100%
         &.on-down
             .header-inner
                 padding-top: 24px
                 padding-bottom: 0
         .header-inner
-            // width: 100%
-            // box-sizing: border-box
-            // display: flex
-            // justify-content: space-between
-            // align-items: center
-            // padding-top: 48px
-            flex-wrap: wrap
             a.logo
                 img
                     width: 120px
             div.buttons
                 div.menu
-                    width: 100%
-                    padding-bottom: 29px
-                    padding-top: 10px
-                    display: block
                     a
             .hamburger
-                display: inherit
             div.buttons
-                display: flex
-                justify-content: space-between
-                align-items: flex-start
-                text-align: center
-                height: auto
-                padding-top: 10px
-                overflow: hidden
-                width: 100%
-                height: 0px
-                transition: all ease 0.3s
                 &.open-buttons
-                    margin-top: 10px
-                    height: auto
-                    display: inline-grid
-                    justify-content: normal
                 a.button
-                    width: 90%
-                    padding-top: 10px
-                    margin-bottom:  10px
-                    padding-bottom: 10px
                     &.left
         &.is-fixed
-            width: 100vw
-            height: 100vh
+            .header-inner
+                div.menu
+                    a.menuu
+
+@media (min-width: 1024px)
+    header
+        &.on-down
+            height: 84px
+            .header-inner
+                padding-top: 4px
+        .header-inner
+            padding-top: 48px
+            flex-wrap: nowrap
+            a.logo
+                img
+            .hamburger
+                display: none
+            div.buttons
+                width: auto
+                opacity: 1
+                visibility: visible
+                flex-wrap: nowrap
+                a.button
+                    padding: 10px 14px
+                    font-size: 14px
+                    margin-bottom: 0
+                    &.left
+                        margin-left: 8px
+                a
+                    width: auto
+            .menu-wrapper
+                width: auto
+                opacity: 1
+                visibility: visible
+                &.open-menu
+                    opacity: 1
+                    visibility: visible
+                div.menu
+                    display: flex
+                    a.menuu
+                        margin: 0 20px
+                        display: inherit
+                        font-size: 16px
+                        &:last-child
+
+@media (min-width: 1200px)
+    header
+        &.on-down
+            .header-inner
+        .header-inner
+            a.logo
+                img
+                    width: 130px
+            .hamburger
+            div.buttons
+                a.button
+                    // padding: 10px 14px
+                    &.left
+                a
+            .menu-wrapper
+                &.open-menu
+                div.menu
+                    a.menuu
+                        margin: 0 28px
+                        // font-size: 16px
+                        &:last-child
+
+
+@media (min-width: 1440px)
+    header
+        .header-inner
+            padding-top: 48px
+            a.logo
+                img
+            .hamburger
+            div.buttons
+                a.button
+                    &.left
+
+@media (min-width: 1600px)
+    header
+        width: 100%
+        position: absolute
+        top: 0
+        z-index: 999
+        transition: all ease-in-out 0.3s
+        &.on-down
             position: fixed
             background: white
-            z-index: 99999
-            display: flex
-            justify-content: center
-            // align-content: stretch
-            // align-content: flex-start
-            align-items: flex-start
-            // align-content: stretch
+            .header-inner
+                padding-top: 24px
+                padding-bottom: 24px
+        .header-inner
+            width: 100%
             box-sizing: border-box
-            .header-inner
-                align-items: stretch
-                align-content: space-between
-                padding:
-                    left: 24px
-                    right: 24px
-                    top: 6vh
-                    bottom: 6vh
-                div.menu
-                    padding: 0
-                    a.menuu
-                        display: inline-block
-                        // margin-bottom: 20px
-                        margin-right: 0
-                        margin: 16px 0
-
-@media (max-width: 640px)
-    header
-        // width: 100%
-        &.on-down
-            .header-inner
-                // padding-top: 24px
-                // padding-bottom: 0
-        .header-inner
-            // width: 100%
-            // box-sizing: border-box
-            // display: flex
-            // justify-content: space-between
-            // align-items: center
-            // padding-top: 48px
-            // flex-wrap: wrap
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding-top: 56px
             a.logo
                 img
-                    // width: 120px
+                    width: 149px
             div.buttons
+                font-weight: bold
                 div.menu
-                    // width: 100%
-                    // margin-top: 10px
-                    // display: block
-                    font-size: 20px
                     a
-            .hamburger
-                // display: inherit
-            div.buttons
-                // display: flex
-                // justify-content: space-between
-                // align-items: flex-start
-                // text-align: center
-                // height: auto
-                // padding-top: 10px
-                // overflow: hidden
-                // width: 100%
-                // height: 0px
-                // transition: all ease 0.3s
-                &.open-buttons
-                    margin-top: 10px
-                    height: auto
-                    display: inline-grid
-                    justify-content: normal
-                    // margin-bottom: 24px
-                a.button
-                        width: 85%
-                        font-size: 23px
-                        &.left
-                            margin-top: 10px
-        &.is-fixed
-            .header-inner
-                .buttons
-                    a.button
-                        box-sizing: border-box
+                        margin-right: 45px
                         width: 100%
-
-
-@media (max-width: 430px)
-    header
-        // width: 100%
-        &.on-down
-            .header-inner
-                // padding-top: 24px
-                // padding-bottom: 0
-        .header-inner
-            // width: 100%
-            // box-sizing: border-box
-            // display: flex
-            // justify-content: space-between
-            // align-items: center
-            // padding-top: 48px
-            // flex-wrap: wrap
-            a.logo
-                img
-                    // width: 120px
-            div.buttons
-                // height: 100%
-                // display: block
-                div.menu
-                    display: block
-                    a.menuu
-                        // padding-bottom: 29px
-                        // padding-top: 10px
-                        &:last-child
-                            padding-bottom: 0px
-                &.open-buttons
-                    // height: 38px
-                    padding-top: 0
-                a.button
-                    // width: 100%
-                    // padding-top: 10px
-                    // padding-bottom: 10px
-                    margin-bottom:  10px
-                    &.left
             .hamburger
-                // display: inherit
-        &.is-fixed
-            .header-inner
-                div.menu
-                    // padding: 0
-                    a.menuu
+                display: none
+            div.buttons
+                a.button
 
-// @media (max-width: 378px)
-//     header
-//         .header-inner
-//             // flex-wrap: wrap
-//             // padding-top: 48px
-//             padding-top: 42px
-//             a.logo
-//                 img
-//                     margin-bottom: 10px
-
-//                     // width: 110px
-//             // div.buttons
-//             //     display: flex
-//             //     justify-content: space-between
-//             //     align-items: flex-start
-//             //     text-align: center
-//             //     height: auto
-//             //     padding-top: 24px
-//             //     overflow: hidden
-//             //     width: 100%
-//             //     height: 0px
-//             //     transition: all ease 0.3s
-//             //     &.open-buttons
-//             //         height: 38px
-//             //    a.button
-
-//                     width: 85%
-//             //         padding-top: 10px
-//             //         padding-bottom: 10px
-//             //         &.left
+                    &.left

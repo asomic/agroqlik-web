@@ -3,16 +3,21 @@
     // Menú
     $('.hamburger').click(function(){
       $(this).toggleClass('is-active');
-      $('.buttons').toggleClass('open-buttons', 100);
+      $('body, html').toggleClass('fix-scroll');
       $('header').toggleClass('is-fixed', 100);
+      $('.buttons').toggleClass('open-buttons', 100);
+      $('.menu-wrapper').toggleClass('open-menu', 100);
     });
 
-    $('#GoApp, #GoServicios, #GoEquipo, #GoPlanes').click(function(){
-        $('header').toggleClass('is-fixed', 100);
+    $('#GoApp, #GoPlataforma, #GoServicios, #GoEquipo, #GoPlanes').click(function(){
+        if( $(window).width() < 1024 ){
+          $('header').toggleClass('is-fixed', 100);
+          $('body, html').toggleClass('fix-scroll');
+        }
         $('.hamburger').toggleClass('is-active');
+        $('.menu-wrapper').toggleClass('open-menu', 100);
         $('.buttons').toggleClass('open-buttons', 100);
     })
-
 
     $('.button-plan-info').click(function(){
       $('.modal-obtener').addClass('show-modal');
@@ -53,18 +58,25 @@ $(document).ready(function(){
     $("#GoApp").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#APP").offset().top-80
+            scrollTop: $("#app").offset().top-130
         }, 1500);
 
         return false;
     });
 
+    $("#GoPlataforma").click(function() {
+        $('html, body').toggleClass('lock-scroll')
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#plataforma").offset().top-120
+        }, 1500);
 
+        return false;
+    });
 
     $("#GoServicios").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#servicio").offset().top-20
+            scrollTop: $("#servicio").offset().top-80
         }, 1500);
 
         return false;
@@ -73,7 +85,7 @@ $(document).ready(function(){
     $("#GoEquipo").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#equipo").offset().top-20
+            scrollTop: $("#equipo").offset().top-80
         }, 1500);
 
         return false;
@@ -82,7 +94,7 @@ $(document).ready(function(){
     $("#GoPlanes").click(function() {
         $('html, body').toggleClass('lock-scroll')
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#planes").offset().top-20
+            scrollTop: $("#planes").offset().top-60
         }, 1500);
 
         return false;
