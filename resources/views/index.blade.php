@@ -106,6 +106,7 @@
                 </span>
             </button>
             <div class="buttons">
+
                 <div class="menu" id="mobil-menu">
                     <a href="#" class="menuu  " id="GoApp">APP</a>
                     <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
@@ -214,7 +215,7 @@
     <section class="the-webapp">
         <div class="the-webapp-inner paddings-l-r">
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
-                <h3 class="h">Con la AgroQlik registramos sus datos<span class="color-green"> y con Qlikview, convertimos en Información</span>  para la toma de decisiones.
+                <h3 class="h">Con AgroQlik registramos sus datos<span class="color-green"> y con Qlikview, convertimos en Información</span>  para la toma de decisiones.
 
                   </h3>
                 <div class="checks">
@@ -384,15 +385,14 @@
                         <h5>Susana Álvarez</h5>
                         <br>
                         <p class="description">
-                            Ejecutiva Senior.<br>
-                            Recursos Humanos.
+                            Ejecutiva Senior, Recursos Humanos.
                         </p>
                         <p>
                             Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos,
                             Administración.
                         </p>
                         <p>
-                            Sénior en Recursos Humanos en empresa de retail, Asistente en Viña "Requingua".
+                            Senior en Recursos Humanos en empresa de retail, Asistente en Viña "Requingua".
                         </p>
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
