@@ -1216,6 +1216,7 @@ section.the-webapp div.the-webapp-inner {
 section.the-webapp div.the-webapp-inner div.data {
   align-items: center;
   width: 45%;
+  margin-left: -3%;
 }
 section.the-webapp div.the-webapp-inner div.data h3 {
   color: #005377;
@@ -1237,7 +1238,7 @@ section.the-webapp div.the-webapp-inner div.data div.checks div.check p {
 }
 section.the-webapp div.the-webapp-inner div.img {
   width: 60%;
-  margin-right: -7%;
+  margin-right: -9%;
 }
 section.the-webapp div.the-webapp-inner div.img img {
   width: 100%;
@@ -1330,7 +1331,7 @@ section.servicios div.servicios-inner div.items div.item {
   padding-top: 42px;
   padding-left: 42px;
   padding-right: 42px;
-  padding-bottom: 28px;
+  padding-bottom: 32px;
 }
 section.servicios div.servicios-inner div.items div.item div.header {
   display: flex;
@@ -1494,7 +1495,7 @@ section.equipo div.equipo-inner div.personas div.persona div.data {
   padding-top: 34px;
   padding-left: 62px;
   padding-right: 42px;
-  padding-bottom: 36px;
+  padding-bottom: 38px;
 }
 section.equipo div.equipo-inner div.personas div.persona h5 {
   color: #85CB33;
@@ -1504,7 +1505,7 @@ section.equipo div.equipo-inner div.personas div.persona h5 {
 section.equipo div.equipo-inner div.personas div.persona p.description {
   color: #005377;
   font-weight: 700;
-  line-height: 105%;
+  line-height: 110%;
   margin-bottom: 19px;
 }
 section.equipo div.equipo-inner div.personas div.persona p {

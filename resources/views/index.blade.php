@@ -112,7 +112,7 @@
             </div>
             <div class="buttons">
                 <a href="#" class="button outline">Iniciar Sesión</a>
-                <a href="#" class="button left button-plan-prueba">Contacto</a>
+                <a href="#" class="button left button-plan-prueba">Whatsapp</a>
 
             </div>
         </div>
