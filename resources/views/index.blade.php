@@ -253,7 +253,7 @@
     <!-- Los Servicios -->
     <section class="servicios ">
         <div class="servicios-inner paddings-l-r" id="servicio">
-            <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes área</h2>
+            <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes áreas</h2>
             <div class="items">
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
