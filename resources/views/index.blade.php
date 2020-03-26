@@ -3,126 +3,14 @@
 
 @section('all')
 
-    <!-- Modal Como obtener -->
-    <div class="modal modal-obtener" >
-        <div class="modal-inner">
-            <div class="img"></div>
-            <div class="data">
-                <div class="x"></div>
-                <div class="header">
-                    <img src="{{asset('/images/hoja.png')}}">
-                    <h3>¿Como obtener <span class="color-green">AgroQlik</span>?</h3>
-                </div>
-                <div class="cards">
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="list-number">
-                            <p>1</p>
-                        </div>
-                        <div class="text">
-                            <h4>Regístrate</h4>
-                            <p>
-                                Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="list-number">
-                            <p>2</p>
-                        </div>
-                        <div class="text">
-                            <h4>AgroQlik te contácta</h4>
-                            <p>
-                                Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="card">
-                        <div class="list-number">
-                            <p>3</p>
-                        </div>
-                        <div class="text">
-                            <h4>Descarga la App</h4>
-                            <p>
-                                Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Modal Contratar -->
-    <div class="modal modal-contratar">
-        <div class="modal-inner">
-
-            <div class="img"></div>
-
-            <div class="data">
-                <div class="x"></div>
-                <div class="header">
-                    <img src=" {{asset('/images/hoja.png')}}">
-                    <h3>Solicita <span class="color-green">AgroQlik</span></h3>
-                </div>
-
-                <form class="form" action="{{ route('ruta') }}" method="POST">
-                    @csrf
-                    <input type="text" name="name" placeholder="Nombre" required>
-                    <input type="email" name="mail" placeholder="Correo" required>
-                    <input type="tel" name="phone" placeholder="Teléfono" required>
-                    <input type="text" name="company" placeholder="Nombre de Empresa" required>
-                    <input type="text" name="city" placeholder="Ciudad" required>
-                    <input type="text" name="region" placeholder="Región" required>
-                    <input type="submit" name="enviarContacto" value="Quiero la prueba gratis" id="formulario-enviar" required>
-                </form>
-
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Header -->
-    <header>
-        <div class="header-inner paddings-l-r" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
-            <a href="/" class="logo">
-                <img src=" {{asset('/images/logo.png')}}" alt="Ir al Inicio">
-            </a>
-
-            <button class="hamburger hamburger--collapse" type="button">
-                <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
-                </span>
-            </button>
-            <div class="menu-wrapper">
-                <div class="menu" id="mobil-menu">
-                    <a href="#" class="menuu" id="GoApp">App</a>
-                    <a href="#" class="menuu" id="GoPlataforma">Plataforma</a>
-                    <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
-                    <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
-                    <a href="#" class="menuu" id="GoPlanes" >Planes</a>
-                 </div>
-            </div>
-            <div class="buttons">
-                <a href="#" class="button outline">Iniciar Sesión</a>
-                <a href="#" class="button left button-plan-prueba">Whatsapp</a>
-
-            </div>
-        </div>
-    </header>
-
     <!-- Hero -->
     <section class="hero" id="top">
         <div class="hero-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="400">
-            <h1 class="hero"><span class="color-green">Tenga el control</span> de su mano de obra en terreno </h1>
-            <p>Normalmente, el Costo de Mano de Obra representa alrededor del 60% - 70% del Costo Total.
+            <h1 class="hero"><span class="color-green">
+                Tenga el control</span> de su mano de obra en terreno
+            </h1>
+            <p>
+                AgroQlik hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
             </p>
             <a href="#" class="button button-plan-prueba">Pruebe Gratis</a>
         </div>
@@ -131,14 +19,17 @@
     <section class="presentacion" >
         <div class="presentacion-inner paddings-l-r"  id="presentacion">
             <div class="card">
-                <h2>Aplicacion para<span class="color-green"> Profesionales del Agro</span></h2>
+                {{-- <h2>Aplicacion para<span class="color-green"> Profesionales del Agro</span></h2> --}}
+                <h2>La Mano de Obra representa alrededor del <span class="color-green">60% al 70% del Costo Total.</span></h2>
                 <!-- Item -->
                 <div class="item">
                     <div class="title">
                         <img src="{{asset('/images/hoja.png')}}">
                         <h5>Herramientas Digitales</h5>
                     </div>
-                    <p>AgroQlik, APP de Captura de Mano de Obra.
+                    <p>
+                        {{-- AgroQlik, APP de Captura de Mano de Obra. --}}
+                        Herramientas en terreno y oficina para conocer y gestionar lo que sucede con su personal
                     </p>
                 </div>
                 <!-- Item -->
@@ -148,7 +39,8 @@
                         <h5>Equipo humano</h5>
                     </div>
                     <p>
-                       Profesionales con mas de 20 años de experiencia en el agro.
+                       {{-- Profesionales con mas de 20 años de experiencia en el agro. --}}
+                       Asesoría y conocimiento de profesionales con más de 20 años de experiencia en el Agro.
                     </p>
                 </div>
             </div>
@@ -164,36 +56,51 @@
             </div>
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                 <h3>
-                   Captura de Mano de Obra
-                    <span class="color-green">  en la palma de su mano
-                    </span>
+                   {{-- Captura de Mano de Obra --}}
+                   Captura de Mano de Obra <span class="color-green">en su móvil</span>
+                    {{-- <span class="color-green">en la palma de su mano
+                    </span> --}}
                 </h3>
                 <div class="items">
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>Con la App AgroQlik puede controlar al detalle y en linea los costos de mano de obra.
+                        <p>
+                            {{-- Con la App AgroQlik puede controlar al detalle y en linea los costos de mano de obra. --}}
+                            Control al detalle y en línea de los costos de Mano de Obra.
                         </p>
                     </div>
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>Controlar la asistencia de sus trabajadores.</p>
+                        <p>
+                            {{-- Controlar la asistencia de sus trabajadores. --}}
+                            Optimización de recurso humano y mejora de sus resultados.
+                        </p>
                     </div>
                     <div class="item">
                         <img src=" {{asset('/images/check.png')}}">
-                        <p>Datos claves de los centros de costos.</p>
+                        <p>
+                            {{-- Datos claves de los centros de costos. --}}
+                            Registro de Asistencia de sus trabajadores.
+                        </p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Obtener los costos por labores en tiempo oportuno.</p>
+                        <p>
+                            {{-- Obtener los costos por labores en tiempo oportuno. --}}
+                            Gestión de labores por personal y centro de costo.
+                        </p>
                     </div>
                     <div class="item">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Cantidad de jornadas pagadas.</p>
+                        <p>
+                            {{-- Cantidad de jornadas pagadas. --}}
+                            Gestión de Jornales pagadas por cada uno de sus trabajadores.
+                        </p>
                     </div>
-                    <div class="item">
+                    {{-- <div class="item">
                         <img src="{{asset('/images/check.png')}}">
                         <p>Total ganado por trabajador.</p>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="buttons">
                     <a href="#">
@@ -211,36 +118,54 @@
     <section class="the-webapp">
         <div class="the-webapp-inner paddings-l-r" id="plataforma">
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
-                <h3 class="h">Con AgroQlik registramos sus datos<span class="color-green"> y con Qlikview, convertimos en Información</span>  para la toma de decisiones.
-
-                  </h3>
+                <h3 class="h">
+                    {{-- Con AgroQlik registramos sus datos<span class="color-green"> y con Qlikview, convertimos en Información</span>para la toma de decisiones. --}}
+                    <span class="color-green">Visualice y analice</span> su mano de obra en detalle.
+                </h3>
                 <div class="checks">
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Descubre ¿Qué esta pasando? y ¿Porqué?.</p>
+                        <p>
+                            {{-- Descubre ¿Qué esta pasando? y ¿Porqué?. --}}
+                            Descubra qué está pasando y porqué.
+                        </p>
                     </div>
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Control de Recurso Humano en tiempo real.</p>
+                        <p>
+                            {{-- Control de Recurso Humano en tiempo real. --}}
+                            Mida y Controle su Recurso Humano en tiempo real.
+                        </p>
                     </div>
 
                     <div class="check">
                        <img src=" {{asset('/images/check.png')}}">
-                        <p>Generar Optimizaciones y mejoras en sus resultados en base a datos.</p>
+                        <p>
+                            {{-- Generar Optimizaciones y mejoras en sus resultados en base a datos. --}}
+                            Obtenga reportes diseñados según casos y variables críticas.
+                        </p>
                     </div>
 
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p> Reportes diseñados según los casos y variables criticas.</p>
+                        <p>
+                            {{-- Reportes diseñados según los casos y variables criticas. --}}
+                            Transforme datos en información relevante.
+                        </p>
                     </div>
                     <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Análiticas Descriptivas.</p>
+                        <p>
+                            {{-- Análiticas Descriptivas. --}}
+                            Tome decisiones acertadas y estratégicas.
+                        </p>
                     </div>
-                    <div class="check">
+                    {{-- <div class="check">
                         <img src="{{asset('/images/check.png')}}">
-                        <p>Conocimiento de sus datos.</p>
-                    </div>
+                        <p>
+                            Conocimiento de sus datos.
+                        </p>
+                    </div> --}}
                 </div>
 
             </div>
@@ -253,7 +178,10 @@
     <!-- Los Servicios -->
     <section class="servicios ">
         <div class="servicios-inner paddings-l-r" id="servicio">
-            <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes áreas</h2>
+            <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                {{-- Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes áreas --}}
+                Servicios y asesorías especializadas incluidas
+            </h2>
             <div class="items">
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -263,7 +191,7 @@
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}} ">
+                            <img src="{{asset('/images/check.png')}} ">
                             <p>Asesoría en Control de Gestión.</p>
                         </div>
                         <div class="check">
@@ -272,7 +200,19 @@
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Análisis de Liquidaciones de Exportadora.</p>
+                            <p>Análisis comparativo de Liquidaciones de Exportadoras</p>
+                        </div>
+                        <div class="check">
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Preparación y Análisis de Presupuestos</p>
+                        </div>
+                        <div class="check">
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Preparación y Análisis de Cash Flow</p>
+                        </div>
+                        <div class="check">
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Análisis de estados de resultados y sus desviaciones</p>
                         </div>
 
                     </div>
@@ -285,28 +225,20 @@
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
-                            <p>Redacción de contratos individuales y pactos colectivos.</p>
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Redacción de contratos individuales y pactos colectivos</p>
                         </div>
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
-                            <p>Proceso de cálculo de remuneraciones y leyes sociales.</p>
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Proceso de cálculo de remuneraciones y leyes sociales</p>
                         </div>
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}">
                             <p>Desvinculaciones y elaboración de finiquitos.</p>
                         </div>
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}">
                             <p>Redacción de reglamentos internos.</p>
-                        </div>
-                        <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
-                            <p>Subcontratación y tercerización de servicios. </p>
-                        </div>
-                        <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
-                            <p>Control de vacaciones y permisos del personal.</p>
                         </div>
                     </div>
                 </div>
@@ -319,7 +251,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>Indicadores de Rendimientos. </p>
+                            <p>Indicadores de Rendimientos</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
@@ -327,11 +259,19 @@
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>   Análisis y evaluación de Costos.</p>
+                            <p>Análisis y evaluación de Costos</p>
                         </div>
                         <div class="check">
                             <img src="{{asset('/images/check.png')}}">
-                            <p>    Integración de datos.</p>
+                            <p>Integración de datos</p>
+                        </div>
+                        <div class="check">
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Apoyar la planificación financiera y la realización de presupuestos</p>
+                        </div>
+                        <div class="check">
+                            <img src="{{asset('/images/check.png')}}">
+                            <p>Analizar el rendimiento de las inversiones</p>
                         </div>
 
                     </div>
@@ -362,8 +302,7 @@
                             Con más de 15 años de experiencia en las áreas de Control de Gestion, Administración & Finanzas y Operaciones.
                         </p>
                         <p>
-                            Agente en empresas de Retail, Jefe de Administración y Finanzas en Agroindustriales y
-                            Agrícolas.
+                            Jefe de Administración y Finanzas en Empresas Agrícolas y AgroIndustriales.
                         </p>
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src=" {{asset('/images/icon-linkedin.png')}}"
@@ -384,11 +323,10 @@
                             Ejecutiva Senior<br>Recursos Humanos.
                         </p>
                         <p>
-                            Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos,
-                            Administración.
+                            Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos y Administración.
                         </p>
                         <p>
-                            Senior en Recursos Humanos en empresa de retail, Asistente en Viña "Requingua".
+                            Senior en Recursos Humanos en empresa de retail y Asistente en Viña “Requingua”.
                         </p>
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
@@ -459,7 +397,7 @@
                     </div>
                     <h4>$00.000</h4>
                     <div>
-                        <a href="#" class="button button-plan-info">Más Información</a>
+                        <a href="#" class="button button-plan-prueba">Solicita aquí</a>
                     </div>
                 </div>
                 <!-- Card Plan -->
@@ -492,7 +430,7 @@
                     </div>
                     <h4>$00.000</h4>
                     <div>
-                        <a href="#" class="button button-plan-info">Más Información</a>
+                        <a href="#" class="button button-plan-prueba">Solicita aquí</a>
                     </div>
                 </div>
                 <!-- Card Plan -->
@@ -525,7 +463,7 @@
                     </div>
                     <h4>$00.000</h4>
                     <div>
-                        <a href="#" class="button button-plan-info">Más Información</a>
+                        <a href="#" class="button button-plan-prueba">Solicita aquí</a>
                     </div>
                 </div>
             </div>
@@ -576,8 +514,8 @@
     <!-- CTA -->
     <section class="cta">
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <h1>Simplifica el control de tu mano de obra con AgroQlik</h1>
-                <a href="" class="button button-plan-prueba">Contáctanos</a>
+                <h1>Solicite su prueba gratis por 30 días.</h1>
+                <a href="" class="button button-plan-prueba">Solicitar</a>
         </div>
     </section>
 

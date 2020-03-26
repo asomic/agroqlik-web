@@ -49,3 +49,118 @@
     </div>
 
     <main class="site-main">
+
+        <!-- Modal Como obtener -->
+        <div class="modal modal-obtener" >
+            <div class="modal-inner">
+                <div class="img"></div>
+                <div class="data">
+                    <div class="x"></div>
+                    <div class="header">
+                        <img src="{{asset('/images/hoja.png')}}">
+                        <h3>¿Como obtener <span class="color-green">AgroQlik</span>?</h3>
+                    </div>
+                    <div class="cards">
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="list-number">
+                                <p>1</p>
+                            </div>
+                            <div class="text">
+                                <h4>Regístrate</h4>
+                                <p>
+                                    Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="list-number">
+                                <p>2</p>
+                            </div>
+                            <div class="text">
+                                <h4>AgroQlik te contácta</h4>
+                                <p>
+                                    Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="list-number">
+                                <p>3</p>
+                            </div>
+                            <div class="text">
+                                <h4>Descarga la App</h4>
+                                <p>
+                                    Nulla elementum mauris eget purus tincidunt dictum. Nunc et accumsan turpis, nec eleifend quam. Aenean pretium ultrices ex, vel ultricies aquí.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal Contratar -->
+        <div class="modal modal-contratar">
+            <div class="modal-inner">
+
+                <div class="img"></div>
+
+                <div class="data">
+                    <div class="x"></div>
+                    <div class="header">
+                        <img src=" {{asset('/images/hoja.png')}}">
+                        <h3>Solicita <span class="color-green">AgroQlik</span></h3>
+                    </div>
+
+                    <form class="form" action="{{ route('ruta') }}" method="POST">
+                        @csrf
+                        <input type="text" name="name" placeholder="Nombre" required>
+                        <input type="email" name="mail" placeholder="Correo" required>
+                        <input type="tel" name="phone" placeholder="Teléfono" required>
+                        <input type="text" name="company" placeholder="Nombre de Empresa" required>
+                        <input type="text" name="city" placeholder="Ciudad" required>
+                        <input type="text" name="region" placeholder="Región" required>
+                        <input type="submit" name="enviarContacto" value="Quiero la prueba gratis" id="formulario-enviar" required>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <div class="header-inner paddings-l-r" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <a href="/" class="logo">
+                    <img src=" {{asset('/images/logo.png')}}" alt="Ir al Inicio">
+                </a>
+
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="menu-wrapper">
+                    <div class="menu" id="mobil-menu">
+                        <a href="#" class="menuu" id="GoApp">App</a>
+                        <a href="#" class="menuu" id="GoPlataforma">Plataforma</a>
+                        <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
+                        <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
+                        <a href="#" class="menuu" id="GoPlanes" >Planes</a>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#" class="button outline">Iniciar Sesión</a>
+                    <a href="#" class="button left button-plan-prueba">Pruebe Gratis</a>
+
+                </div>
+            </div>
+        </header>

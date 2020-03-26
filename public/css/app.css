@@ -989,26 +989,24 @@ section.hero div.hero-inner p {
     background-size: contain;
   }
   section.hero div.hero-inner {
-    padding-top: 240px;
+    padding-top: 250px;
     width: 60%;
-    padding-bottom: 94px;
+    padding-bottom: 134px;
   }
 }
 @media (min-width: 1440px) {
   section.hero div.hero-inner {
     width: 56%;
-    padding-top: 240px;
-    padding-bottom: 100px;
   }
 }
 @media (min-width: 1600px) {
   section.hero {
-    background-position: 100% 13vw;
+    background-position: 100% 14vw;
   }
   section.hero div.hero-inner {
-    width: 700px;
+    width: 650px;
     padding-top: 260px;
-    padding-bottom: 120px;
+    padding-bottom: 134px;
   }
 }
 section.presentacion {
@@ -1031,6 +1029,7 @@ section.presentacion .presentacion-inner div.card {
 section.presentacion .presentacion-inner div.card h2 {
   font-weight: 700;
   margin-bottom: 32px;
+  line-height: 115%;
   color: #005377;
 }
 section.presentacion .presentacion-inner div.card div.item {
@@ -1207,7 +1206,7 @@ section.the-webapp div.the-webapp-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 67%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 16px;
