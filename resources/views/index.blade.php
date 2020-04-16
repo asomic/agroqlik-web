@@ -6,13 +6,18 @@
     <!-- Hero -->
     <section class="hero" id="top">
         <div class="hero-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="400">
-            <h1 class="hero"><span class="color-green">
-                Tenga el control</span> de su mano de obra en terreno
-            </h1>
-            <p>
-                AgroQlik hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
-            </p>
-            <a href="#" class="button button-plan-prueba">Pruebe Gratis</a>
+            <div class="img">
+                <img src="{{ asset('/images/scene.png') }}">
+            </div>
+            <div class="data">
+                <h1 class="hero"><span class="color-green">
+                    Tenga el control</span><br> de su mano de obra en terreno
+                </h1>
+                <p>
+                    AgroQlik hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
+                </p>
+            </div>
+            {{-- <a href="#" class="button button-plan-prueba">Pruebe Gratis</a> --}}
         </div>
     </section>
     <!-- Presentación -->
@@ -293,7 +298,7 @@
                     </div>
                     <div class="data">
                         <h5>Paulo Sánchez</h5>
-                        <br>
+                        {{-- <br> --}}
                         <p class="description">
                           Fundador de AgroQlik<br>Ingeniero & MBA<br>
                             Certificado en Qlikview
@@ -318,7 +323,7 @@
                     </div>
                     <div class="data">
                         <h5>Susana Álvarez</h5>
-                        <br>
+                        {{-- <br> --}}
                         <p class="description">
                             Ejecutiva Senior<br>Recursos Humanos.
                         </p>
@@ -348,8 +353,8 @@
                     <img src=" {{asset('/images/test-1.jpg')}}" alt="">
                 </div>
                 <h4>
-                    “ Con AgroQlik obtengo datos,
-                     análisis e información para tomar decisiones acertadas y lograr la mejor producción ”
+                    “Con AgroQlik obtengo datos,
+                     análisis e información para tomar decisiones acertadas y lograr la mejor producción”
                 </h4>
                 <h6>Jaime Berenguer</h6>
                 <p class="little">Productor Agricola</p>

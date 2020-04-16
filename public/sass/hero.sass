@@ -16,70 +16,115 @@ section.hero
         margin-left: auto
         margin-right: auto
         // padding-top: 180px + 80px
-        padding-bottom: 100px
-        padding-top: 100px + 100px
-        h1 
-            font-weight: 700
-            margin-bottom: 26px  
-            text-align: center
-            color: $blue
-        p
-            width: 100%
-            text-align: center
-            font-size: 16px
-            margin-top: 0px
-            margin-bottom: 26px
+        // padding-top: 100px + 100px
+        padding-top: 120px
+        padding-bottom: 46px
+        div.img
+            margin-bottom: 24px
+            img
+                width: 100%
+        div.data
+            h1 
+                font-weight: 700
+                margin-bottom: 26px  
+                text-align: center
+                color: $blue
+            p
+                width: 100%
+                text-align: center
+                font-size: 16px
+                line-height: 140%
+                margin-top: 0px
+                margin-bottom: 26px
     
-// Cuando sea menor a 768px
 @media (min-width: 768px)
     section.hero
         div.hero-inner
-            width: 70%
-            h1 
-            p
+            flex-wrap: nowrap
+            justify-content: space-between
+            align-items: center
+            padding-top: 130px
+            padding-bottom: 56px
+            div.img
+                width: 57%
+                margin-right: -20px
+                order: 2
+                margin-bottom: 0
+            div.data
+                width: 40%
+                order: 1
+                h1
+                    text-align: left    
+                p
+                    text-align: left
+                    margin-bottom: 0
     
-// Cuando sea menor a 100px
 @media (min-width: 1024px)
     section.hero
         background-size: contain
         div.hero-inner
-            padding-top: 200px
-            width: 60%
-            padding-bottom: 80px
-            h1 
-            p    
+            padding-top: 152px
+            // width: 60%
+            padding-bottom: 72px
+            div.img
+                // order: 1
+                width: 52%
+                margin-left: -20px
+                img
+            div.data
+                // order: 2
+                width: 45%
+                h1
+                    font-size: 42px
+                p
+                    font-size: 18px
 
-// Cuando sea menor a 1200px
 @media (min-width: 1200px)
     section.hero
         background-size: contain
         div.hero-inner
-            padding-top: 250px
-            width: 60%
-            padding-bottom: 134px
-            h1 
-            p
+            padding-top: 162px
+            // width: 90%
+            padding-bottom: 94px
+            div.img
+                width: 50%
+                // margin-left: -30px
+                img
+            div.data
+                width: 42%
+                // padding-right: 10%
+                box-sizing: border-box
+                h1
+                    font-size: 46px
+                    margin-bottom: 26px
+                p
+                    line-height: 145%
     
-// Cuando sea menor a 100px
 @media (min-width: 1440px)
     section.hero
         div.hero-inner
-            width: 56%
+            // width: 56%
             // padding-bottom: 80px
             // padding-top: 250px
             // padding-bottom: 134px
-            h1 
-            p
+            div.img
+                img
+            div.data
+                h1 
+                p    
 
-// Cuando sea menor a 1600px
 @media (min-width: 1600px)
     section.hero
         // background-size: contain
         background-position: 100% 14vw
         div.hero-inner
-            width: 650px
+            // width: 650px
             // padding-bottom: 80px
-            padding-top: 260px
+            // padding-top: 260px
+            padding-top: 220px
             padding-bottom: 134px
-            h1 
-            p
+            div.img
+                img
+            div.data
+                h1 
+                p   
