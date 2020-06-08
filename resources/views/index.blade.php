@@ -10,18 +10,19 @@
                 <img src="{{ asset('/images/scene.png') }}">
             </div>
             <div class="data">
+                <h6>Captura de Mano de Obra</h6>
                 <h1 class="hero"><span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno
                 </h1>
                 <p>
-                    AgroQlik hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
+                    AgroQlik® hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
                 </p>
             </div>
             {{-- <a href="#" class="button button-plan-prueba">Pruebe Gratis</a> --}}
         </div>
     </section>
     <!-- Presentación -->
-    <section class="presentacion" >
+    <section class="presentacion">
         <div class="presentacion-inner paddings-l-r"  id="presentacion">
             <div class="card">
                 {{-- <h2>Aplicacion para<span class="color-green"> Profesionales del Agro</span></h2> --}}
@@ -306,9 +307,9 @@
                         <p>
                             Con más de 15 años de experiencia en las áreas de Control de Gestion, Administración & Finanzas y Operaciones.
                         </p>
-                        <p>
+                        {{-- <p>
                             Jefe de Administración y Finanzas en Empresas Agrícolas y AgroIndustriales.
-                        </p>
+                        </p> --}}
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src=" {{asset('/images/icon-linkedin.png')}}"
                                     alt="LinkedIn"></a>
@@ -330,9 +331,9 @@
                         <p>
                             Profesional con más de 25 años de experiencia en las áreas de Recursos Humanos y Administración.
                         </p>
-                        <p>
+                        {{-- <p>
                             Senior en Recursos Humanos en empresa de retail y Asistente en Viña “Requingua”.
-                        </p>
+                        </p> --}}
                         <div class="rrss">
                             <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
                                     alt="LinkedIn"></a>

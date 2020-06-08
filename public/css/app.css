@@ -734,7 +734,7 @@ header.on-down {
   height: 72px;
 }
 header.on-down .header-inner {
-  padding-top: 24px;
+  padding-top: 22px;
   padding-bottom: 24px;
 }
 header .header-inner {
@@ -808,7 +808,6 @@ header.is-fixed .header-inner {
 
 @media (min-width: 768px) {
   header.on-down .header-inner {
-    padding-top: 24px;
     padding-bottom: 0;
   }
   header .header-inner {
@@ -823,7 +822,7 @@ header.is-fixed .header-inner {
     height: 84px;
   }
   header.on-down .header-inner {
-    padding-top: 4px;
+    padding-top: 0px;
   }
   header .header-inner {
     padding-top: 48px;
@@ -940,10 +939,17 @@ section.hero div.hero-inner {
   padding-bottom: 46px;
 }
 section.hero div.hero-inner div.img {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 section.hero div.hero-inner div.img img {
   width: 100%;
+}
+section.hero div.hero-inner div.data h6 {
+  font-size: 18px;
+  margin-bottom: 22px;
+  text-align: center;
+  color: #373737;
+  opacity: 0.8;
 }
 section.hero div.hero-inner div.data h1 {
   font-weight: 700;
@@ -966,10 +972,10 @@ section.hero div.hero-inner div.data p {
     justify-content: space-between;
     align-items: center;
     padding-top: 130px;
-    padding-bottom: 56px;
+    padding-bottom: 60px;
   }
   section.hero div.hero-inner div.img {
-    width: 57%;
+    width: 60%;
     margin-right: -20px;
     order: 2;
     margin-bottom: 0;
@@ -978,8 +984,14 @@ section.hero div.hero-inner div.data p {
     width: 40%;
     order: 1;
   }
+  section.hero div.hero-inner div.data h6 {
+    text-align: left;
+    margin-bottom: 18px;
+    font-size: 16px;
+  }
   section.hero div.hero-inner div.data h1 {
     text-align: left;
+    font-size: 34px;
   }
   section.hero div.hero-inner div.data p {
     text-align: left;
@@ -1001,8 +1013,12 @@ section.hero div.hero-inner div.data p {
   section.hero div.hero-inner div.data {
     width: 45%;
   }
+  section.hero div.hero-inner div.data h6 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
   section.hero div.hero-inner div.data h1 {
-    font-size: 42px;
+    font-size: 40px;
   }
   section.hero div.hero-inner div.data p {
     font-size: 18px;
@@ -1023,8 +1039,11 @@ section.hero div.hero-inner div.data p {
     width: 42%;
     box-sizing: border-box;
   }
+  section.hero div.hero-inner div.data h6 {
+    font-size: 17px;
+  }
   section.hero div.hero-inner div.data h1 {
-    font-size: 46px;
+    font-size: 40px;
     margin-bottom: 26px;
   }
   section.hero div.hero-inner div.data p {
@@ -1052,7 +1071,7 @@ section.presentacion .presentacion-inner {
 section.presentacion .presentacion-inner div.card {
   background-color: white;
   width: 33%;
-  padding: 52px 52px 54px;
+  padding: 50px 52px 54px;
   margin-top: 76px;
   margin-bottom: 77px;
   border-radius: 4px;
@@ -1091,7 +1110,8 @@ section.presentacion .presentacion-inner div.card div.item div.title h5 {
 
 @media (max-width: 1024px) {
   section.presentacion .presentacion-inner div.card {
-    width: 36%;
+    width: 40%;
+    padding: 42px 48px 42px;
     margin-bottom: 60px;
   }
 }
@@ -1103,7 +1123,11 @@ section.presentacion .presentacion-inner div.card div.item div.title h5 {
 @media (max-width: 375px) {
   section.presentacion .presentacion-inner div.card {
     width: 100%;
+    padding: 38px 40px 42px;
     margin-top: 51px;
+  }
+  section.presentacion .presentacion-inner div.card h2 {
+    font-size: 30px;
   }
 }
 section.the-app {

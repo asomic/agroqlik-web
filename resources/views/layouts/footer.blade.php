@@ -17,7 +17,7 @@
                     <p>
                         <span>Teléfono</span>
                         <br>
-                        <a href="tel:+5698880000">+569 888 00 00</a>
+                        <a href="tel:+56989222422">+569 89 222 422</a>
                     </p>
                 </div>
                 <div class="item">
