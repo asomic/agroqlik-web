@@ -62,11 +62,14 @@ header
                 a.menuu
                     display: block
                     margin: 16px 0
-                    font-size: 19px
                     font-weight: 600
                     outline: none
+                    font-size: 19px
+                    transition: all ease 0.3s
                     &:last-child
                         padding-bottom: 0px
+                    &:hover
+                        color: $dark-green
         .hamburger
     &.is-fixed
         height: 100vh !important
@@ -144,11 +147,14 @@ header
         &.on-down
             .header-inner
         .header-inner
+            max-width: 1224px
+            // max-width: 1260px
             a.logo
                 img
                     width: 130px
             .hamburger
             div.buttons
+                margin-right: -10px
                 a.button
                     // padding: 10px 14px
                     &.left
@@ -166,6 +172,7 @@ header
     header
         .header-inner
             padding-top: 48px
+            max-width: 1360px
             a.logo
                 img
             .hamburger
@@ -193,6 +200,7 @@ header
             justify-content: space-between
             align-items: center
             padding-top: 56px
+            max-width: 1200px
             a.logo
                 img
                     width: 149px
@@ -205,6 +213,7 @@ header
             .hamburger
                 display: none
             div.buttons
+                margin-right: 0
                 a.button
 
                     &.left

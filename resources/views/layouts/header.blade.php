@@ -150,8 +150,8 @@
                 </button>
                 <div class="menu-wrapper">
                     <div class="menu" id="mobil-menu">
-                        <a href="#" class="menuu" id="GoApp">App</a>
-                        <a href="#" class="menuu" id="GoPlataforma">Plataforma</a>
+                        <a href="#" class="menuu" id="GoApp">App y Plataforma</a>
+                        {{-- <a href="#" class="menuu" id="GoPlataforma">Plataforma</a> --}}
                         <a href="#"  class="menuu" id="GoServicios" >Servicios</a>
                         <a href="#" class="menuu" id="GoEquipo" >Equipo</a>
                         <a href="#" class="menuu" id="GoPlanes" >Planes</a>

@@ -58,7 +58,8 @@
     <section class="the-app">
         <div class="the-app-inner paddings-l-r"  id="app">
             <div class="img" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
-                <img src=" {{asset('/images/app-mockup.png')}}" alt="App de NFIT">
+                {{-- <img src=" {{asset('/images/app-mockup.png')}}" alt="App de NFIT"> --}}
+                <img src=" {{asset('/images/app-mockup2.png')}}" alt="App de NFIT">
             </div>
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                 <h3>
@@ -301,7 +302,7 @@
                         <h5>Paulo Sánchez</h5>
                         {{-- <br> --}}
                         <p class="description">
-                          Fundador de AgroQlik<br>Ingeniero & MBA<br>
+                          Fundador de AgroQlik®<br>Ingeniero & MBA<br>
                             Certificado en Qlikview
                         </p>
                         <p>
@@ -484,7 +485,7 @@
                 <span class="color-green">
                     Más de 1.800 Hás
                 </span>
-                gestionadas con AgroQlik
+                gestionadas con AgroQlik®
             </h2>
 
             <div class="items">

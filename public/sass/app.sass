@@ -6,7 +6,10 @@ $light-green: #F7FCF9
 $blue: rgb(0, 83, 119)
 $dark: #373737
 
-/* set
+html
+    background-color: $light-green
+
+/* set */
 body
     font-family: 'Source Sans Pro', sans-serif
     background-color: $light-green
@@ -26,7 +29,7 @@ body
             border-radius: 7px
 
 
-/* Fuentes
+/* Fuentes */
 p
     line-height: 135%
     margin-top: 0
@@ -149,12 +152,13 @@ h6
 a
     text-decoration: none
     color: $dark
-/* colores
+
+/* colores */
 
 .color-green
     color: $green
 
-/* botones
+/* botones */
 .button
     // PARA HACER BORDES
     border-radius: 4px
@@ -177,8 +181,9 @@ a
         border: solid 1px $dark
         color: $dark
         &:hover
-            background-color: rgba(black, 0.05)
-            // border: solid 1px $green
+            // background-color: rgba(black, 0.05)
+            border: solid 1px $dark-green
+            color: $dark-green
 
 @media (max-width: 640px)
     .button
@@ -198,7 +203,7 @@ a
             // border: solid 1px $dark
             // color: $dark
 
-/* paddings
+/* paddings */
 .paddings-l-r
     padding-left: 24px
     padding-right: 24px
@@ -249,7 +254,7 @@ a
 .fix-scroll
     overflow: hidden !important
 
-/* Hamburgers
+/* Hamburgers */
 .hamburger
     padding: 0
 
@@ -275,7 +280,7 @@ a
         -webkit-transform: translateY(0)
         transform: translateY(0)
 
-/* Modals
+/* Modals */
 .modal
     position: fixed
     z-index: 9999
@@ -600,7 +605,7 @@ a
                             h4
                             p
 
-/* imports
+/* imports */
 @import 'header'
 @import 'hero'
 @import 'presentacion'

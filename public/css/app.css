@@ -217,6 +217,10 @@ textarea {
   padding: 0.2em 0;
 }
 
+html {
+  background-color: #F7FCF9;
+}
+
 /* set */
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -414,7 +418,8 @@ a {
   color: #373737;
 }
 .button.outline:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  border: solid 1px #5FAE31;
+  color: #5FAE31;
 }
 
 @media (max-width: 640px) {
@@ -791,12 +796,16 @@ header .header-inner .menu-wrapper div.menu {
 header .header-inner .menu-wrapper div.menu a.menuu {
   display: block;
   margin: 16px 0;
-  font-size: 19px;
   font-weight: 600;
   outline: none;
+  font-size: 19px;
+  transition: all ease 0.3s;
 }
 header .header-inner .menu-wrapper div.menu a.menuu:last-child {
   padding-bottom: 0px;
+}
+header .header-inner .menu-wrapper div.menu a.menuu:hover {
+  color: #5FAE31;
 }
 header.is-fixed {
   height: 100vh !important;
@@ -867,8 +876,14 @@ header.is-fixed .header-inner {
   }
 }
 @media (min-width: 1200px) {
+  header .header-inner {
+    max-width: 1224px;
+  }
   header .header-inner a.logo img {
     width: 130px;
+  }
+  header .header-inner div.buttons {
+    margin-right: -10px;
   }
   header .header-inner .menu-wrapper div.menu a.menuu {
     margin: 0 28px;
@@ -877,6 +892,7 @@ header.is-fixed .header-inner {
 @media (min-width: 1440px) {
   header .header-inner {
     padding-top: 48px;
+    max-width: 1360px;
   }
 }
 @media (min-width: 1600px) {
@@ -902,6 +918,7 @@ header.is-fixed .header-inner {
     justify-content: space-between;
     align-items: center;
     padding-top: 56px;
+    max-width: 1200px;
   }
   header .header-inner a.logo img {
     width: 149px;
@@ -915,6 +932,9 @@ header.is-fixed .header-inner {
   }
   header .header-inner .hamburger {
     display: none;
+  }
+  header .header-inner div.buttons {
+    margin-right: 0;
   }
 }
 section.hero {
@@ -945,11 +965,12 @@ section.hero div.hero-inner div.img img {
   width: 100%;
 }
 section.hero div.hero-inner div.data h6 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 22px;
   text-align: center;
   color: #373737;
   opacity: 0.8;
+  letter-spacing: 0.5px;
 }
 section.hero div.hero-inner div.data h1 {
   font-weight: 700;
@@ -976,7 +997,7 @@ section.hero div.hero-inner div.data p {
   }
   section.hero div.hero-inner div.img {
     width: 60%;
-    margin-right: -20px;
+    margin-right: -36px;
     order: 2;
     margin-bottom: 0;
   }
@@ -986,12 +1007,13 @@ section.hero div.hero-inner div.data p {
   }
   section.hero div.hero-inner div.data h6 {
     text-align: left;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     font-size: 16px;
+    letter-spacing: 0.5px;
   }
   section.hero div.hero-inner div.data h1 {
     text-align: left;
-    font-size: 34px;
+    font-size: 36px;
   }
   section.hero div.hero-inner div.data p {
     text-align: left;
@@ -1009,13 +1031,15 @@ section.hero div.hero-inner div.data p {
   section.hero div.hero-inner div.img {
     width: 52%;
     margin-left: -20px;
+    margin-right: -36px;
   }
   section.hero div.hero-inner div.data {
     width: 45%;
   }
   section.hero div.hero-inner div.data h6 {
-    margin-bottom: 16px;
+    margin-bottom: 22px;
     font-size: 18px;
+    letter-spacing: 0.5px;
   }
   section.hero div.hero-inner div.data h1 {
     font-size: 40px;
@@ -1030,10 +1054,14 @@ section.hero div.hero-inner div.data p {
   }
   section.hero div.hero-inner {
     padding-top: 162px;
+    width: 100%;
+    max-width: 1220px;
     padding-bottom: 94px;
   }
   section.hero div.hero-inner div.img {
     width: 50%;
+    margin-right: -28px;
+    margin-right: -36px;
   }
   section.hero div.hero-inner div.data {
     width: 42%;
@@ -1041,14 +1069,22 @@ section.hero div.hero-inner div.data p {
   }
   section.hero div.hero-inner div.data h6 {
     font-size: 18px;
-    margin-bottom: 18px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
   }
   section.hero div.hero-inner div.data h1 {
     font-size: 40px;
-    margin-bottom: 26px;
+    font-size: 42px;
+    margin-bottom: 24px;
   }
   section.hero div.hero-inner div.data p {
     line-height: 145%;
+  }
+}
+@media (min-width: 1440px) {
+  section.hero div.hero-inner {
+    max-width: 1360px;
   }
 }
 @media (min-width: 1600px) {
@@ -1058,6 +1094,7 @@ section.hero div.hero-inner div.data p {
   section.hero div.hero-inner {
     padding-top: 220px;
     padding-bottom: 134px;
+    max-width: 1200px;
   }
 }
 section.presentacion {
@@ -1068,20 +1105,22 @@ section.presentacion {
 section.presentacion .presentacion-inner {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
+  max-width: 1100px;
 }
 section.presentacion .presentacion-inner div.card {
   background-color: white;
-  width: 33%;
+  width: 35%;
   padding: 50px 52px 54px;
   margin-top: 76px;
   margin-bottom: 77px;
   border-radius: 4px;
 }
 section.presentacion .presentacion-inner div.card h2 {
-  font-size: 240%;
+  font-size: 230%;
   font-weight: 700;
   margin-bottom: 34px;
-  line-height: 115%;
+  line-height: 118%;
   color: #005377;
 }
 section.presentacion .presentacion-inner div.card div.item {
@@ -1109,7 +1148,25 @@ section.presentacion .presentacion-inner div.card div.item div.title h5 {
   width: 100%;
 }
 
+@media (max-width: 1400px) {
+  section.presentacion .presentacion-inner {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1600px) {
+  section.presentacion div.presentacion-inner {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1200px) {
+  section.presentacion .presentacion-inner {
+    max-width: 980px;
+  }
+}
 @media (max-width: 1024px) {
+  section.presentacion .presentacion-inner {
+    box-sizing: border-box;
+  }
   section.presentacion .presentacion-inner div.card {
     width: 40%;
     padding: 42px 48px 42px;
@@ -1153,13 +1210,14 @@ section.the-app::before {
 section.the-app div.the-app-inner {
   z-index: 2;
   display: flex;
-  margin-top: 130px;
+  margin-top: 70px;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 section.the-app div.the-app-inner div.img {
   width: 45%;
@@ -1168,11 +1226,15 @@ section.the-app div.the-app-inner div.img img {
   width: 100%;
 }
 section.the-app div.the-app-inner div.data {
-  width: 45%;
+  width: 48%;
 }
 section.the-app div.the-app-inner div.data h3 {
   color: #005377;
   margin-bottom: 28px;
+  width: 90%;
+}
+section.the-app div.the-app-inner div.data div.items {
+  width: 90%;
 }
 section.the-app div.the-app-inner div.data div.items div.item {
   margin-bottom: 10px;
@@ -1267,9 +1329,9 @@ section.the-webapp div.the-webapp-inner {
   align-items: center;
   justify-content: space-between;
   width: 67%;
+  width: 72%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 16px;
   padding-bottom: 80px;
 }
 section.the-webapp div.the-webapp-inner div.data {
@@ -1304,6 +1366,11 @@ section.the-webapp div.the-webapp-inner div.img img {
   width: 100%;
 }
 
+@media (min-width: 1400px) {
+  section.the-webapp div.the-webapp-inner {
+    max-width: 900px;
+  }
+}
 @media (max-width: 1024px) {
   section.the-webapp::after {
     width: 400px;
@@ -1365,6 +1432,7 @@ section.servicios div.servicios-inner {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-width: 980px;
   margin-bottom: 80px;
 }
 section.servicios div.servicios-inner h2 {
@@ -1374,7 +1442,7 @@ section.servicios div.servicios-inner h2 {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 section.servicios div.servicios-inner div.items {
@@ -1390,8 +1458,8 @@ section.servicios div.servicios-inner div.items div.item {
   box-sizing: border-box;
   padding-top: 42px;
   padding-left: 42px;
-  padding-right: 42px;
-  padding-bottom: 32px;
+  padding-right: 44px;
+  padding-bottom: 34px;
 }
 section.servicios div.servicios-inner div.items div.item div.header {
   display: flex;
@@ -1421,7 +1489,15 @@ section.servicios div.servicios-inner div.items div.item div.checks div.check im
   height: 17px;
   margin-right: 8px;
 }
+@media (min-width: 1600px) {
+  section.servicios div.servicios-inner {
+    max-width: 1140px;
+  }
+}
 @media (max-width: 1024px) {
+  section.servicios div.servicios-inner {
+    width: 100%;
+  }
   section.servicios div.servicios-inner h2 {
     padding-top: 90px;
     width: 72%;
@@ -1485,6 +1561,7 @@ section.equipo {
 }
 section.equipo div.equipo-inner {
   width: 100%;
+  max-width: 1160px;
   padding-top: 106px;
   padding-bottom: 82px;
   box-sizing: border-box;
@@ -1527,7 +1604,7 @@ section.equipo div.equipo-inner div.personas div.persona {
 }
 section.equipo div.equipo-inner div.personas div.persona div.img {
   width: 50%;
-  height: 80%;
+  height: 100%;
   z-index: 2;
   margin-top: -40px;
   border-radius: 4px;
@@ -1592,6 +1669,16 @@ section.equipo div.equipo-inner div.personas div.persona div.rrss a:hover {
   opacity: 0.7;
 }
 
+@media (min-width: 1400px) {
+  section.equipo div.equipo-inner {
+    max-width: 1260px;
+  }
+}
+@media (min-width: 1600px) {
+  section.equipo div.equipo-inner {
+    max-width: 1140px;
+  }
+}
 @media (max-width: 1024px) {
   section.equipo div.equipo-inner h2 {
     padding-left: 20%;
@@ -1607,13 +1694,17 @@ section.equipo div.equipo-inner div.personas div.persona div.rrss a:hover {
   section.equipo div.equipo-inner div.personas div.persona {
     width: 100%;
     margin-bottom: 40px;
+    margin-bottom: 120px;
+    margin-top: 120px;
   }
   section.equipo div.equipo-inner div.personas div.persona:last-child {
     margin-bottom: 0;
+    margin-top: 40px;
   }
   section.equipo div.equipo-inner div.personas div.persona div.img {
     width: 30%;
-    height: 100%;
+    height: 130%;
+    margin-top: -110px;
   }
   section.equipo div.equipo-inner div.personas div.persona div.data {
     width: 74%;
@@ -1797,6 +1888,8 @@ section.planes-wrapper div.planes-inner {
   box-sizing: border-box;
   padding-top: 110px;
   padding-bottom: 52px;
+  width: 100%;
+  max-width: 1160px;
 }
 section.planes-wrapper div.planes-inner h2 {
   color: #85CB33;
@@ -1829,6 +1922,7 @@ section.planes-wrapper div.planes-inner div.items div.item div.header {
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
+  margin-left: -6px;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.header img {
   width: 10%;
@@ -1867,6 +1961,16 @@ section.planes-wrapper div.planes-inner div.items div.item div a.button:hover {
   border: solid 1px #5FAE31;
 }
 
+@media (min-width: 1400px) {
+  section.planes-wrapper div.planes-inner {
+    max-width: 1260px;
+  }
+}
+@media (min-width: 1600px) {
+  section.planes-wrapper div.planes-inner {
+    max-width: 1140px;
+  }
+}
 @media (max-width: 1024px) {
   section.planes-wrapper::before {
     width: 750px;
@@ -2137,8 +2241,10 @@ footer {
   background-color: #5FAE31;
 }
 footer div.footer-inner {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 54px;
-  padding-bottom: 74px;
+  padding-bottom: 54px;
 }
 footer div.footer-inner div.datos-wrapper {
   display: flex;
@@ -2166,7 +2272,24 @@ footer div.creditos {
   justify-content: center;
   align-items: center;
   color: white;
+  flex-wrap: wrap;
   padding-bottom: 38px;
+}
+footer div.creditos .rrss {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+footer div.creditos .rrss a {
+  margin: 0 8px;
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+footer div.creditos .rrss a:hover {
+  opacity: 0.8;
+}
+footer div.creditos .rrss a img {
+  width: 20px;
 }
 footer div.creditos p {
   color: #D5EAC9;
@@ -2194,5 +2317,20 @@ footer div.creditos p img {
   }
   footer div.footer-inner div.datos-wrapper div.item:last-child {
     margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  footer div.footer-inner {
+    max-width: 1040px;
+  }
+}
+@media (min-width: 1400px) {
+  footer div.footer-inner {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1600px) {
+  footer div.footer-inner {
+    max-width: 1200px;
   }
 }

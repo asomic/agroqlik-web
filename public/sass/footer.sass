@@ -7,9 +7,12 @@ footer
     background-color: $dark-green
     // height: 200px
     div.footer-inner
+        margin-left: auto
+        margin-right: auto
         padding:
             top: 54px
-            bottom: 74px
+            // bottom: 74px
+            bottom: 54px
         div.datos-wrapper
             display: flex
             justify-content: space-between
@@ -38,7 +41,20 @@ footer
         justify-content: center
         align-items: center
         color: white
+        flex-wrap: wrap
         padding-bottom: 38px
+        .rrss
+            width: 100%
+            text-align: center
+            margin-bottom: 32px
+            a
+                margin: 0 8px
+                opacity: 1
+                transition: all ease 0.3s
+                &:hover
+                    opacity: 0.8
+                img
+                    width: 20px
         p
             color: #D5EAC9
             img
@@ -91,3 +107,18 @@ footer
                     // width: 67px
                     // height: 19,61px
                     // margin:-3px 0px -6px 0px
+
+@media (min-width: 1200px)
+    footer
+        div.footer-inner
+            max-width: 1040px
+
+@media (min-width: 1400px)
+    footer
+        div.footer-inner
+            max-width: 1100px  
+
+@media (min-width: 1600px)
+    footer
+        div.footer-inner
+            max-width: 1200px

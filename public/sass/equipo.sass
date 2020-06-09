@@ -3,6 +3,7 @@ section.equipo
     overflow: hidden
     div.equipo-inner
         width: 100%
+        max-width: 1160px
         padding-top: 106px
         padding-bottom: 82px
         box-sizing: border-box
@@ -44,7 +45,8 @@ section.equipo
                 // margin-left: auto
                 div.img
                     width: 50%
-                    height: 80%
+                    // height: 80%
+                    height: 100%
                     z-index: 2
                     margin-top: -40px
                     border-radius: 4px
@@ -122,6 +124,16 @@ section.equipo
                         &:hover
                             opacity: 0.7
 
+@media (min-width: 1400px)
+    section.equipo
+        div.equipo-inner
+            max-width: 1260px
+
+@media (min-width: 1600px)
+    section.equipo
+        div.equipo-inner
+            max-width: 1140px
+
 // Cuando sea menor a 100px
 @media (max-width: 1024px)
     section.equipo
@@ -137,11 +149,15 @@ section.equipo
                 div.persona
                     width: 100%
                     margin-bottom: 40px
+                    margin-bottom: 120px
+                    margin-top: 120px
                     &:last-child
                         margin-bottom: 0
+                        margin-top: 40px
                     div.img
                         width: 30%
-                        height: 100%
+                        height: 130%
+                        margin-top: -110px
                         img
                     div.data
                         width: 74%

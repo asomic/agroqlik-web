@@ -21,7 +21,8 @@ section.servicios
         z-index: 2 
         margin-left: auto
         margin-right: auto 
-        width: 100%  
+        width: 100%
+        max-width: 980px
         margin-bottom: 80px  
         h2
             color: $light-green
@@ -30,9 +31,9 @@ section.servicios
             width: 60%
             margin-left: auto
             margin-right: auto
-            padding-top: 100px
-            margin-bottom: 50px 
-                             
+            // padding-top: 100px
+            padding-top: 94px
+            margin-bottom: 50px
         div.items
             display: flex
             justify-content: space-between 
@@ -46,8 +47,8 @@ section.servicios
                 padding:
                     top: 42px  
                     left: 42px
-                    right: 42px   
-                    bottom: 32px
+                    right: 44px   
+                    bottom: 34px
                 div.header                     
                     display: flex                  
                     align-items: center 
@@ -72,10 +73,16 @@ section.servicios
                             margin-right: 8px  
                         p
                           
+@media (min-width: 1600px)
+    section.servicios
+        div.servicios-inner
+            max-width: 1140px
+
 // Cuando sea menor a 100px
 @media (max-width: 1024px)
     section.servicios
         div.servicios-inner
+            width: 100%
             h2
                 padding-top: 90px
                 width: 72%
