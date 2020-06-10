@@ -10,9 +10,11 @@
                 <img src="{{ asset('/images/scene.png') }}">
             </div>
             <div class="data">
-                <h6>Captura de Mano de Obra</h6>
-                <h1 class="hero"><span class="color-green">
-                    Tenga el control</span><br> de su mano de obra en terreno
+                {{-- <h6>Captura de Mano de Obra</h6> --}}
+                <h1 class="hero">
+                    APP Captura mano de obra
+                    {{-- <span class="color-green">
+                    Tenga el control</span><br> de su mano de obra en terreno --}}
                 </h1>
                 <p>
                     AgroQlik® hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
