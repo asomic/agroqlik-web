@@ -964,6 +964,9 @@ section.hero div.hero-inner div.img {
 section.hero div.hero-inner div.img img {
   width: 100%;
 }
+section.hero div.hero-inner div.data {
+  text-align: center;
+}
 section.hero div.hero-inner div.data h6 {
   font-size: 16px;
   margin-bottom: 22px;
@@ -975,16 +978,15 @@ section.hero div.hero-inner div.data h6 {
 section.hero div.hero-inner div.data h1 {
   font-weight: 700;
   margin-bottom: 26px;
-  text-align: center;
   color: #005377;
 }
 section.hero div.hero-inner div.data p {
   width: 100%;
-  text-align: center;
   font-size: 16px;
   line-height: 140%;
   margin-top: 0px;
   margin-bottom: 26px;
+  margin-bottom: 36px;
 }
 
 @media (min-width: 768px) {
@@ -1004,20 +1006,18 @@ section.hero div.hero-inner div.data p {
   section.hero div.hero-inner div.data {
     width: 40%;
     order: 1;
+    text-align: left;
   }
   section.hero div.hero-inner div.data h6 {
-    text-align: left;
     margin-bottom: 20px;
     font-size: 16px;
     letter-spacing: 0.5px;
   }
   section.hero div.hero-inner div.data h1 {
-    text-align: left;
     font-size: 36px;
   }
   section.hero div.hero-inner div.data p {
-    text-align: left;
-    margin-bottom: 0;
+    margin-bottom: 34px;
   }
 }
 @media (min-width: 1024px) {
@@ -2206,13 +2206,12 @@ section.cta div.cta-inner h1 {
   padding-left: 30%;
   padding-right: 30%;
   line-height: 120%;
-  margin-bottom: 23px;
+  margin-bottom: 38px;
 }
 @media (max-width: 1024px) {
   section.cta div.cta-inner h1 {
     padding-left: 16%;
     padding-right: 16%;
-    margin-bottom: 30px;
   }
 }
 @media (max-width: 768px) {

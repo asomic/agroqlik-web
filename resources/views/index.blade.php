@@ -12,15 +12,18 @@
             <div class="data">
                 {{-- <h6>Captura de Mano de Obra</h6> --}}
                 <h1 class="hero">
-                    APP Captura mano de obra
+                    APP Captura de mano de obra
+                    {{-- <span class="color-green">
+                    Tenga el control</span><br> de su mano de obra en terreno --}}                    
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}
                 </h1>
                 <p>
                     AgroQlik® hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
                 </p>
+                {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
+                <a href="https://wa.me/56989222422" class="button">Contacte a un asesor</a>
             </div>
-            {{-- <a href="#" class="button button-plan-prueba">Pruebe Gratis</a> --}}
         </div>
     </section>
     <!-- Presentación -->
@@ -524,7 +527,8 @@
     <section class="cta">
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
                 <h1>Solicite su prueba gratis por 30 días.</h1>
-                <a href="" class="button button-plan-prueba">Solicitar</a>
+                <a href="" class="button button-plan-prueba">Solicitar Aquí</a>
+                <a href="https://wa.me/56989222422" style="margin-left: 10px" class="button">Contacte a un asesor</a>
         </div>
     </section>
 
