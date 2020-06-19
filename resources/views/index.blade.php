@@ -317,9 +317,9 @@
                             Jefe de Administración y Finanzas en Empresas Agrícolas y AgroIndustriales.
                         </p> --}}
                         <div class="rrss">
-                            <a href="https://linkedin.com"><img src=" {{asset('/images/icon-linkedin.png')}}"
+                            <a href="https://www.linkedin.com/in/paulo-s%C3%A1nchez-9850aa30/"><img src=" {{asset('/images/icon-linkedin.png')}}"
                                     alt="LinkedIn"></a>
-                            <a href="mailto:correo@correo.mail"><img src=" {{asset('/images/icon-email.png')}}"
+                            <a href="mailto:paulo.sanchez@agroqlik.cl"><img src=" {{asset('/images/icon-email.png')}}"
                                     alt="LinkedIn"></a>
                         </div>
                     </div>
