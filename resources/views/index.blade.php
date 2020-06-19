@@ -526,6 +526,17 @@
                     </div>
                 </div>
             </div>
+            <div class="plan-full" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <div class="plan-full-inner">
+                    <h3>Plan Full Empresa</h3>
+                    <p>
+                        ¿Muchos Fundos que Digitalizar? ¿Necesitas un Mayor Alcance? Obtén Acceso full a las funcionalidades de AgroQlik.  Contactanos con tus requerimientos especiales para diseñar un plan a tu medida.
+                    </p>
+                    <a href="https://wa.me/56989222422" class="button">
+                        Contacte a un asesor
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 

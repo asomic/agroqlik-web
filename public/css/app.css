@@ -1897,9 +1897,25 @@ section.planes-wrapper div.planes-inner h2 {
   padding-right: 30%;
   padding-left: 30%;
   margin-bottom: 58px;
+  position: relative;
 }
 section.planes-wrapper div.planes-inner h2 span {
   color: #005377;
+}
+section.planes-wrapper div.planes-inner h2::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/icon-soft.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 147px;
+  height: 150px;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
 }
 section.planes-wrapper div.planes-inner div.items {
   display: flex;
@@ -1911,7 +1927,7 @@ section.planes-wrapper div.planes-inner div.items div.item {
   border-radius: 6px;
   width: 32%;
   box-sizing: border-box;
-  padding-top: 48px;
+  padding-top: 46px;
   padding-left: 36px;
   padding-right: 36px;
   padding-bottom: 34px;
@@ -1990,6 +2006,47 @@ section.planes-wrapper div.planes-inner div.items div.item .plan-footer div a.bu
   background-color: #5FAE31;
   border: solid 1px #5FAE31;
 }
+section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner {
+  background-color: white;
+  box-shadow: 7px 10px 30px rgba(13, 93, 86, 0.12);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 48px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 40px;
+}
+section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner h3 {
+  width: 100%;
+  margin-bottom: 22px;
+  color: #005377;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14%;
+  padding-right: 14%;
+  display: block;
+  margin-bottom: 20px;
+}
+section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner .button {
+  background-color: #85CB33;
+  border: solid 1px #85CB33;
+  padding: 12px 22px;
+}
+section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner .button:hover {
+  background-color: #5FAE31;
+  border: solid 1px #5FAE31;
+}
 
 @media (min-width: 1400px) {
   section.planes-wrapper div.planes-inner {
@@ -2037,6 +2094,9 @@ section.planes-wrapper div.planes-inner div.items div.item .plan-footer div a.bu
   }
   section.planes-wrapper div.planes-inner div.items div.item div.header img {
     width: 30px;
+  }
+  section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner {
+    margin-top: 0;
   }
 }
 @media (max-width: 640px) {
@@ -2173,6 +2233,10 @@ section.hectareas div.hectareas-inner div.items div.itemm p {
   section.hectareas div.hectareas-inner div.items {
     width: 90%;
   }
+  section.hectareas div.hectareas-inner div.items div.item {
+    width: 15%;
+    padding: 34px 22px 30px 22px;
+  }
 }
 @media (max-width: 768px) {
   section.hectareas div.hectareas-inner {
@@ -2183,7 +2247,8 @@ section.hectareas div.hectareas-inner div.items div.itemm p {
     width: 100%;
   }
   section.hectareas div.hectareas-inner div.items div.item {
-    width: 10%;
+    width: 16%;
+    padding: 34px 22px 30px 22px;
   }
 }
 @media (max-width: 640px) {
