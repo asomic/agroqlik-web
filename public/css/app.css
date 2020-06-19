@@ -1911,31 +1911,38 @@ section.planes-wrapper div.planes-inner div.items div.item {
   border-radius: 6px;
   width: 32%;
   box-sizing: border-box;
-  padding-top: 44px;
+  padding-top: 48px;
   padding-left: 36px;
   padding-right: 36px;
   padding-bottom: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.header {
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
   width: 100%;
   margin-bottom: 30px;
+  margin-bottom: 34px;
   margin-left: -6px;
+  text-align: center;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.header img {
   width: 10%;
-  height: 100%;
+  height: auto;
   margin-right: 10px;
 }
-section.planes-wrapper div.planes-inner div.items div.item div.header h3 {
+section.planes-wrapper div.planes-inner div.items div.item div.header h3, section.planes-wrapper div.planes-inner div.items div.item div.header h4 {
   font-weight: 700;
   color: #005377;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.checks div.check {
   display: flex;
   margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.checks div.check img {
   width: 20px;
@@ -1943,20 +1950,43 @@ section.planes-wrapper div.planes-inner div.items div.item div.checks div.check 
   margin-top: 2px;
   margin-right: 14px;
 }
-section.planes-wrapper div.planes-inner div.items div.item h4 {
+section.planes-wrapper div.planes-inner div.items div.item div.checks div.check:last-child {
+  margin-bottom: 10px;
+}
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer h4 {
   color: #005377;
   text-align: center;
-  margin-bottom: 21px;
-  margin-top: 27px;
+  margin-top: 20px;
+  margin-bottom: 6px;
 }
-section.planes-wrapper div.planes-inner div.items div.item div a.button {
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer p.regular-price {
+  margin: 0;
+  display: block;
+  text-align: center !important;
+  width: 100%;
+  font-size: 13px;
+  line-height: 115%;
+  opacity: 0.8;
+  margin-bottom: 18px;
+}
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer div {
+  width: 100%;
+}
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer div a.button {
   display: block;
   text-align: center;
   background-color: #85CB33;
   border: solid 1px #85CB33;
   padding: 12px 2px;
 }
-section.planes-wrapper div.planes-inner div.items div.item div a.button:hover {
+section.planes-wrapper div.planes-inner div.items div.item .plan-footer div a.button:hover {
   background-color: #5FAE31;
   border: solid 1px #5FAE31;
 }
@@ -2052,7 +2082,7 @@ section.hectareas::after {
 section.hectareas div.hectareas-inner {
   box-sizing: border-box;
   width: 100%;
-  padding-top: 116px;
+  padding-top: 100px;
   padding-bottom: 114px;
 }
 section.hectareas div.hectareas-inner h2 {

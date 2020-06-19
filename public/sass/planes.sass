@@ -42,50 +42,86 @@ section.planes-wrapper
                 width: 32%
                 box-sizing: border-box
                 padding: 
-                    top: 44px
+                    top: 48px
                     left: 36px
                     right: 36px
-                    bottom: 34px        
+                    bottom: 34px
+                display: flex
+                flex-wrap: wrap
+                align-content: stretch
                 div.header                    
                     display: flex
                     justify-content: center
+                    // align-items: flex-start
+                    align-content: center
                     align-items: center
                     width: 100%
                     margin-bottom: 30px
+                    margin-bottom: 34px
                     margin-left: -6px
+                    text-align: center
+                    // height: 40px
                     img
                        width: 10%
-                       height: 100%
+                       height: auto
                        margin-right: 10px
-                    h3
+                       // margin: auto    
+                    h3, h4
                         font-weight: 700
                         color: $blue 
+                        // display: inline-block
+                        // text-align: center
                         // width: 40% 
-                div.checks 
+                div.checks
+                    // display: flex
+                    // flex-wrap: wrap
+                    // align-items: flex-start
+                    // align-content: flex-start
                     div.check
                         display: flex 
                         margin-bottom: 18px
+                        margin-bottom: 14px
                         img
                             width: 20px
                             height: 100%
                             margin-top: 2px
                             margin-right: 14px
-                        p  
-                h4
-                    color: $blue
-                    text-align: center
-                    margin-bottom: 21px
-                    margin-top: 27px
-                div          
-                    a.button
-                        display: block
+                        p
+                        &:last-child
+                            margin-bottom: 10px
+                .plan-footer
+                    width: 100%
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
+                    align-content: flex-end
+                    h4
+                        color: $blue
                         text-align: center
-                        background-color: $green
-                        border: solid 1px $green
-                        padding: 12px 2px
-                        &:hover
-                            background-color: $dark-green
-                            border: solid 1px $dark-green
+                        // margin-top: 27px
+                        margin-top: 20px
+                        // margin-bottom: 21px
+                        margin-bottom: 6px
+                    p.regular-price
+                        margin: 0
+                        display: block
+                        text-align: center !important
+                        width: 100%
+                        font-size: 13px
+                        line-height: 115%
+                        opacity: 0.8
+                        margin-bottom: 18px
+                    div          
+                        width: 100%
+                        a.button
+                            display: block
+                            text-align: center
+                            background-color: $green
+                            border: solid 1px $green
+                            padding: 12px 2px
+                            &:hover
+                                background-color: $dark-green
+                                border: solid 1px $dark-green
 
 @media (min-width: 1400px)
     section.planes-wrapper
@@ -143,7 +179,7 @@ section.planes-wrapper
                             // width: 10%
                             // height: 100%
                             // margin-right: 10px
-                        h3
+                        h3, h4
                             // font-weight: 700
                             // color: $blue                            
                     div.checks 
@@ -155,17 +191,18 @@ section.planes-wrapper
                                 // height: 100%
                                 // margin-right: 16px
                             p  
-                    h4
-                        // color: $blue
-                        // text-align: center
-                        // margin-bottom: 21px
-                        // margin-top: 27px
-                    div          
-                        a.button
-                            // display: block
+                    .plan-footer
+                        h4
+                            // color: $blue
                             // text-align: center
-                            // background-color: $green
-                            // border: solid 1px $green
+                            // margin-bottom: 21px
+                            // margin-top: 27px
+                        div          
+                            a.button
+                                // display: block
+                                // text-align: center
+                                // background-color: $green
+                                // border: solid 1px $green
 
 
 // Cuando sea menor a 768px
@@ -217,7 +254,7 @@ section.planes-wrapper
                             width: 30px
                             // height: 100%
                             // margin-right: 10px
-                        h3
+                        h3, h4
                             // font-weight: 700
                             // color: $blue                            
                     div.checks 
@@ -229,17 +266,18 @@ section.planes-wrapper
                                 // height: 100%
                                 // margin-right: 16px
                             p  
-                    h4
-                        // color: $blue
-                        // text-align: center
-                        // margin-bottom: 21px
-                        // margin-top: 27px
-                    div          
-                        a.button
-                            // display: block
+                    .plan-footer
+                        h4
+                            // color: $blue
                             // text-align: center
-                            // background-color: $green
-                            // border: solid 1px $green
+                            // margin-bottom: 21px
+                            // margin-top: 27px
+                        div          
+                            a.button
+                                // display: block
+                                // text-align: center
+                                // background-color: $green
+                                // border: solid 1px $green
 
 
 // Cuando sea menor a 640px
@@ -288,7 +326,7 @@ section.planes-wrapper
                             width: 30px
                             // height: 100%
                             // margin-right: 10px
-                        h3
+                        h3, h4
                             // font-weight: 700
                             // color: $blue                            
                     div.checks 
@@ -300,17 +338,18 @@ section.planes-wrapper
                                 // height: 100%
                                 // margin-right: 16px
                             p  
-                    h4
-                        // color: $blue
-                        // text-align: center
-                        // margin-bottom: 21px
-                        // margin-top: 27px
-                    div          
-                        a.button
-                            // display: block
+                    .plan-footer
+                        h4
+                            // color: $blue
                             // text-align: center
-                            // background-color: $green
-                            // border: solid 1px $green
+                            // margin-bottom: 21px
+                            // margin-top: 27px
+                        div          
+                            a.button
+                                // display: block
+                                // text-align: center
+                                // background-color: $green
+                                // border: solid 1px $green
 
 @media (max-width: 375px)
     section.planes-wrapper      
