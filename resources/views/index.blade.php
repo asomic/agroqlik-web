@@ -22,7 +22,7 @@
                     AgroQlik® hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
-                <a href="https://wa.me/56989222422" class="button">Contacte a un asesor</a>
+                <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a>
             </div>
         </div>
     </section>
@@ -115,10 +115,10 @@
                     </div> --}}
                 </div>
                 <div class="buttons">
-                    <a href="#">
+                    <a href="https://play.google.com/store/apps/details?id=com.asomic.agroqlik">
                         <img src="{{asset('/images/google-play-badge.png')}}">
                     </a>
-                    <a href="#">
+                    <a href="https://apps.apple.com/app/id1510795447">
                         <img src="{{asset('/images/app-store-badge.png')}}">
                     </a>
                 </div>
@@ -320,7 +320,7 @@
                             <a href="https://www.linkedin.com/in/paulo-s%C3%A1nchez-9850aa30/"><img src=" {{asset('/images/icon-linkedin.png')}}"
                                     alt="LinkedIn"></a>
                             <a href="mailto:paulo.sanchez@agroqlik.cl"><img src=" {{asset('/images/icon-email.png')}}"
-                                    alt="LinkedIn"></a>
+                                    alt="Correo"></a>
                         </div>
                     </div>
                 </div>
@@ -341,10 +341,10 @@
                             Senior en Recursos Humanos en empresa de retail y Asistente en Viña “Requingua”.
                         </p> --}}
                         <div class="rrss">
-                            <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
-                                    alt="LinkedIn"></a>
-                                    <a href="mailto:correo@correo.mail"><img src=" {{asset('/images/icon-email.png')}}"
-                                        alt="LinkedIn"></a>
+                            {{-- <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
+                                    alt="LinkedIn"></a> --}}
+                                    <a href="mailto:susana.alvarez@agroqlik.cl"><img src=" {{asset('/images/icon-email.png')}}"
+                                        alt="Correo"></a>
                         </div>
                     </div>
                 </div>
@@ -532,7 +532,7 @@
                     <p>
                         ¿Muchos Fundos que Digitalizar? ¿Necesitas un Mayor Alcance? Obtén Acceso full a las funcionalidades de AgroQlik.  Contactanos con tus requerimientos especiales para diseñar un plan a tu medida.
                     </p>
-                    <a href="https://wa.me/56989222422" class="button">
+                    <a href="https://wa.me/56966070874" class="button">
                         Contacte a un asesor
                     </a>
                 </div>
@@ -586,7 +586,7 @@
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
                 <h1>Solicite su prueba gratis por 30 días.</h1>
                 <a href="" class="button button-plan-prueba">Solicitar Aquí</a>
-                <a href="https://wa.me/56989222422" style="margin-left: 10px" class="button">Contacte a un asesor</a>
+                <a href="https://wa.me/56966070874" style="margin-left: 10px" class="button">Contacte a un asesor</a>
         </div>
     </section>
 

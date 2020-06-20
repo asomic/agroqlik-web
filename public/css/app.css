@@ -1319,7 +1319,7 @@ section.the-webapp::after {
   background-repeat: no-repeat;
   width: 35%;
   height: 100%;
-  z-index: -1;
+  z-index: 0;
   right: 0;
   bottom: 0;
 }
@@ -1361,6 +1361,7 @@ section.the-webapp div.the-webapp-inner div.data div.checks div.check p {
 section.the-webapp div.the-webapp-inner div.img {
   width: 60%;
   margin-right: -9%;
+  z-index: 2;
 }
 section.the-webapp div.the-webapp-inner div.img img {
   width: 100%;
@@ -1871,18 +1872,6 @@ section.planes-wrapper {
   position: relative;
   overflow: hidden;
 }
-section.planes-wrapper::before {
-  content: "";
-  position: absolute;
-  background-image: url("../images/back-lines-4.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 70%;
-  height: 40%;
-  z-index: -1;
-  left: 0;
-  top: 0;
-}
 section.planes-wrapper div.planes-inner {
   z-index: 2;
   box-sizing: border-box;
@@ -2135,7 +2124,6 @@ section.hectareas::after {
   background-repeat: no-repeat;
   width: 80%;
   height: 70%;
-  z-index: -1;
   right: 0;
   bottom: 0;
 }
@@ -2144,6 +2132,7 @@ section.hectareas div.hectareas-inner {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 114px;
+  z-index: 1;
 }
 section.hectareas div.hectareas-inner h2 {
   position: relative;
@@ -2179,6 +2168,7 @@ section.hectareas div.hectareas-inner div.items div.item {
   position: relative;
   background-color: white;
   border-radius: 4px;
+  z-index: 20;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
