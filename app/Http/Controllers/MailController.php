@@ -17,16 +17,16 @@ class MailController extends Controller
 
 
 
-      Mail::to("jmanuel.jorquera@gmail.com")->send(new ContactMail($request->input()));
+      Mail::to("contacto@agroqlik.cl")->send(new ContactMail($request->input()));
 
 
       if (Mail::failures()) {
-
-      return response('fallo',500);
+        Session::flash('danger','Error al enviar el formulario de contacto. Favor comunicarse directamente a contacto@agroqlik.cl');
+        return redirect()->back();
       }
       else {
-
-        return response('logro',200);
+        Session::flash('success','Formulario enviado con exito. Nos comunicaremos con usted a la brevedad.');
+        return redirect()->back();
       }
 
 

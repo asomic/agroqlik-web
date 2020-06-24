@@ -135,7 +135,27 @@
 
             </div>
         </div>
+        
+        <div class="modal" id="modal-response">
+            <div class="modal-inner">
 
+                <div class="img"></div>
+
+                <div class="data">
+                    <div class="x"></div>
+                    <div class="header">
+                        <img src=" {{asset('/images/hoja.png')}}">
+                        <h3>Solicita <span class="color-green">AgroQlik</span></h3>
+                    </div>
+                    <div class="text-center">
+                        <p>{{Session::get('success')}}</p>
+                        <p>{{Session::get('danger')}}</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
         <!-- Header -->
         <header>
             <div class="header-inner paddings-l-r" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">

@@ -48,6 +48,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="{{asset('/js/app.js')}}"></script>
+     @if(Session::has('danger') || Session::has('success')) 
+    <script>
+        $(document).ready(function(){
+            console.log('siii');
+            $('#modal-response').addClass('show-modal');
+        });
+    </script>
+    @endif 
 <main>
 </body>
 
