@@ -474,7 +474,7 @@
                             Valor normal 2,5 UF
                         </p>
                         <div>
-                            <a href="#" class="button button-p lan-prueba">Solicita aquí</a>
+                            <a href="#" class="button button-plan-prueba">Solicita aquí</a>
                         </div>
                     </div>
                 </div>

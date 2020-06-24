@@ -17,7 +17,7 @@ class MailController extends Controller
 
 
 
-      Mail::to("trindamorales@gmail.com")->send(new ContactMail($request->input()));
+      Mail::to("jmanuel.jorquera@gmail.com")->from('web@agroqlik.cl')->send(new ContactMail($request->input()));
 
 
       if (Mail::failures()) {
