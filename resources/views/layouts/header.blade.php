@@ -9,6 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AgroQlik - Aplicación Movil para Profesionales del Agro </title>
     <!-- Favicons -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MW96L82');</script>
+    <!-- End Google Tag Manager -->
     
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ asset('/favicons/apple-touch-icon-57x57.png') }}" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('/favicons/apple-touch-icon-114x114.png') }}" />
@@ -42,7 +50,10 @@
 </head>
 
 <body class="site-wrapper">
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW96L82"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {{-- UP --}}
     <div class="goToUp">
         <img src="{{asset('/images/up.svg')}}" class="up" alt="">
