@@ -147,144 +147,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/public/css/app.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/public/css/app.css.map",
-		"oF": 0
-		},
-	"/public/css/cta.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/cta-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/equipo.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/equipo-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/header.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/header-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/hectarias.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/hectarias-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/hero.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/hero-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/planes.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/planes-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/presentacion.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/presentacion-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/presentacionapp.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/presentacionapp-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/presentacionweb.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/presentacionweb-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/reset.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/reset-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/servicios.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/servicios-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/public/css/testimonio.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/public/css/testimonio-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/public/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -510,6 +372,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/public/images/app-mockup2.png": {
+		"ft": 32768,
+		"iS": 187676,
+		"oA": 0,
+		"oAP": "/public/images/app-mockup2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/public/images/app-store-badge.png": {
 		"ft": 32768,
 		"iS": 48145,
@@ -559,6 +432,17 @@
 		"iS": 29103,
 		"oA": 0,
 		"oAP": "/public/images/back-lines-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/public/images/back-lines-32.png": {
+		"ft": 32768,
+		"iS": 31632,
+		"oA": 0,
+		"oAP": "/public/images/back-lines-32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -806,6 +690,36 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/public/images/rrss/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/images/rrss/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public/images/rrss/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/images/rrss/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/public/images/rrss/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/public/images/rrss/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/public/images/scene.png": {
 		"ft": 32768,

@@ -36,7 +36,7 @@
             <div class="rrss">
                 <a href="https://facebook.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/facebook.svg') }}" alt=""></a>
                 <a href="https://instagram.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/instagram.svg') }}" alt=""></a>
-                <a href="https://linkedin.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/linkedin.svg') }}" alt=""></a>
+                <a href="https://www.linkedin.com/company/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/linkedin.svg') }}" alt=""></a>
             </div>
             <p>
                 Hecho por <a href="https://asomic.com"><img src="{{asset('/images/asomic.png')}}" alt="asomic"></a> en Curicó,
