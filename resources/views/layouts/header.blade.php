@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- #Fin viewport -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AgroQlik - Aplicación Movil para Profesionales del Agro </title>
+    <title>AgroQlik - Aplicación Movil para Profesionales del Agro</title>
     <!-- Favicons -->
 
     <!-- Google Tag Manager -->
@@ -167,6 +167,16 @@
 
             </div>
         </div>
+        
+    
+        {{-- Info pre header --}}
+        <div class="info-header">
+            <div class="info-header-inner">
+                <p>Llámanos al <a href="tel:+56966070874">+56 9 660 70 874</a></p>
+                <p>Contactanos en <a href="mailto:contacto@agroqlik.cl">contacto@agroqlik.cl</a></p>
+            </div>
+        </div>
+        
         <!-- Header -->
         <header>
             <div class="header-inner paddings-l-r" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
@@ -189,8 +199,9 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <a href="#" class="button outline">Iniciar Sesión</a>
-                    <a href="#" class="button left button-plan-prueba">Pruebe Gratis</a>
+                    <a href="https://admin.agroqlik.cl/" class="button outline">Iniciar Sesión</a>
+                    {{-- <a href="#" class="button left button-plan-prueba">Pruebe Gratis</a> --}}
+                    <a href="#" class="button left button-plan-prueba">Demo Gratis</a>
 
                 </div>
             </div>

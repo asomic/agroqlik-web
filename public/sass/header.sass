@@ -1,3 +1,78 @@
+.info-header
+    width: 100%
+    background-color: $dark-green
+    position: absolute
+    top: 0
+    .info-header-inner
+        color: white
+        margin: auto
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        justify-content: center
+        max-width: 1224px
+        p
+            text-align: center
+            width: 100%
+            font-size: 15px
+            a
+                color: white
+
+@media (min-width: 760px)
+    .info-header
+        // width: 100%
+        // background-color: $dark-green
+        // position: absolute
+        // top: 0
+        .info-header-inner
+            // color: white
+            // margin: auto
+            // width: 100%
+            // display: flex
+            flex-wrap: nowrap
+            justify-content: space-between
+            // justify-content: center
+            // max-width: 1224px
+            padding: 10px 44px
+            box-sizing: border-box
+            p
+                text-align: inherit
+                width: auto
+                font-size: 15px
+                a
+                    color: white
+
+@media (min-width: 1024px)
+    .info-header
+        .info-header-inner
+            padding: 10px 50px
+            p
+                a
+
+@media (min-width: 1200px)
+    .info-header
+        .info-header-inner
+            padding: 10px 0px
+            max-width: 1040px
+            p
+                a
+
+@media (min-width: 1440px)
+    .info-header
+        .info-header-inner
+            padding: 10px 0px
+            max-width: 1100px
+            p
+                a
+@media (min-width: 1600px)
+    .info-header
+        .info-header-inner
+            padding: 10px 0px
+            max-width: 1200px
+            p
+                a
+    
 header
     width: 100%
     height: 100px
@@ -25,6 +100,7 @@ header
         align-items: center
         align-content: space-between
         padding-top: 34px
+        padding-top: 54px
         a.logo
             img
                 width: 130px
@@ -40,6 +116,10 @@ header
                 text-align: center
                 font-weight: 700
                 padding: 12px 0
+                &.button-plan-prueba
+                    background-color: #F66F03
+                    border: none
+                    color: white
             &.open-buttons
                 padding-top: 0
                 opacity: 1
@@ -84,7 +164,8 @@ header
                 // padding-top: 24px
                 padding-bottom: 0
         .header-inner
-            padding-top: 44px
+            // padding-top: 44px
+            padding-top: 58px
             a.logo
                 img
                     width: 130px
@@ -108,7 +189,10 @@ header
             .header-inner
                 padding-top: 0px
         .header-inner
-            padding-top: 48px
+            padding-top: 32px
+            // padding-top: 48px
+            // padding-top: 52px
+            padding-top: 60px
             flex-wrap: nowrap
             a.logo
                 img

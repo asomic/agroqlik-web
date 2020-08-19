@@ -7,19 +7,20 @@
     <section class="hero" id="top">
         <div class="hero-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="400">
             <div class="img">
-                <img src="{{ asset('/images/scene.png') }}">
+                <img src="{{ asset('/images/scene.png') }}" alt="AgroQlik App">
             </div>
             <div class="data">
                 {{-- <h6>Captura de Mano de Obra</h6> --}}
                 <h1 class="hero">
-                    APP Captura de mano de obra
+                    {{-- APP Captura de mano de obra --}}
+                    Digitaliza tus labores en terreno
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}                    
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}
                 </h1>
                 <p>
-                    AgroQlik® hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
+                    AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
                 <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a>
@@ -31,11 +32,13 @@
         <div class="presentacion-inner paddings-l-r"  id="presentacion">
             <div class="card">
                 {{-- <h2>Aplicacion para<span class="color-green"> Profesionales del Agro</span></h2> --}}
-                <h2>La Mano de Obra representa alrededor del <span class="color-green">60% al 70% del Costo Total.</span></h2>
+                {{-- <h2>La Mano de Obra representa alrededor del <span class="color-green">60% al 70% del Costo Total.</span></h2> --}}
+                {{-- <h2>Tareas en terreno más <span class="color-green">simples y eficaces</span></h2> --}}
+                <h2>Ten el control de tu mano de obra en terreno</h2>
                 <!-- Item -->
                 <div class="item">
                     <div class="title">
-                        <img src="{{asset('/images/hoja.png')}}">
+                        <img src="{{asset('/images/hoja.png')}}" alt="Icono AgroQlik">
                         <h5>Herramientas Digitales</h5>
                     </div>
                     <p>
@@ -46,7 +49,7 @@
                 <!-- Item -->
                 <div class="item">
                     <div class="title">
-                        <img src=" {{asset('images/hoja.png')}}">
+                        <img src=" {{asset('images/hoja.png')}}" alt="Icono AgroQlik">
                         <h5>Equipo humano</h5>
                     </div>
                     <p>
@@ -64,7 +67,7 @@
         <div class="the-app-inner paddings-l-r"  id="app">
             <div class="img" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
                 {{-- <img src=" {{asset('/images/app-mockup.png')}}" alt="App de NFIT"> --}}
-                <img src=" {{asset('/images/app-mockup2.png')}}" alt="App de NFIT">
+                <img src=" {{asset('/images/app-mockup2.png')}}" alt="App AgroQlik">
             </div>
             <div class="data" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                 <h3>
@@ -75,35 +78,35 @@
                 </h3>
                 <div class="items">
                     <div class="item">
-                        <img src=" {{asset('/images/check.png')}}">
+                        <img src=" {{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Con la App AgroQlik puede controlar al detalle y en linea los costos de mano de obra. --}}
                             Control al detalle y en línea de los costos de Mano de Obra.
                         </p>
                     </div>
                     <div class="item">
-                        <img src=" {{asset('/images/check.png')}}">
+                        <img src=" {{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Controlar la asistencia de sus trabajadores. --}}
                             Optimización de recurso humano y mejora de sus resultados.
                         </p>
                     </div>
                     <div class="item">
-                        <img src=" {{asset('/images/check.png')}}">
+                        <img src=" {{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Datos claves de los centros de costos. --}}
                             Registro de Asistencia de sus trabajadores.
                         </p>
                     </div>
                     <div class="item">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Obtener los costos por labores en tiempo oportuno. --}}
                             Gestión de labores por personal y centro de costo.
                         </p>
                     </div>
                     <div class="item">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Cantidad de jornadas pagadas. --}}
                             Gestión de Jornales pagadas por cada uno de sus trabajadores.
@@ -116,10 +119,10 @@
                 </div>
                 <div class="buttons">
                     <a href="https://play.google.com/store/apps/details?id=com.asomic.agroqlik">
-                        <img src="{{asset('/images/google-play-badge.png')}}">
+                        <img src="{{asset('/images/google-play-badge.png')}}" alt="Google Play Badge">
                     </a>
                     <a href="https://apps.apple.com/app/id1510795447">
-                        <img src="{{asset('/images/app-store-badge.png')}}">
+                        <img src="{{asset('/images/app-store-badge.png')}}" alt="App Store Badge">
                     </a>
                 </div>
             </div>
@@ -136,14 +139,14 @@
                 </h3>
                 <div class="checks">
                     <div class="check">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Descubre ¿Qué esta pasando? y ¿Porqué?. --}}
                             Descubra qué está pasando y porqué.
                         </p>
                     </div>
                     <div class="check">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Control de Recurso Humano en tiempo real. --}}
                             Mida y Controle su Recurso Humano en tiempo real.
@@ -151,7 +154,7 @@
                     </div>
 
                     <div class="check">
-                       <img src=" {{asset('/images/check.png')}}">
+                       <img src=" {{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Generar Optimizaciones y mejoras en sus resultados en base a datos. --}}
                             Obtenga reportes diseñados según casos y variables críticas.
@@ -159,14 +162,14 @@
                     </div>
 
                     <div class="check">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Reportes diseñados según los casos y variables criticas. --}}
                             Transforme datos en información relevante.
                         </p>
                     </div>
                     <div class="check">
-                        <img src="{{asset('/images/check.png')}}">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Análiticas Descriptivas. --}}
                             Tome decisiones acertadas y estratégicas.
@@ -182,7 +185,7 @@
 
             </div>
             <div class="img" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">
-                <img src=" {{asset('/images/webapp-mockup.png')}}" alt="WebApp de NFIT">
+                <img src=" {{asset('/images/webapp-mockup.png')}}" alt="WebApp AgroQlik">
             </div>
         </div>
     </section>
@@ -198,32 +201,32 @@
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div class="header">
-                        <img src=" {{asset('/images/servicio-analisis.png')}}">
+                        <img src=" {{asset('/images/servicio-analisis.png')}}" alt="Icono analisis y gestion">
                         <h5>Análisis y Gestión</h5>
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}} ">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Asesoría en Control de Gestión.</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Análisis de “Captura de Mano de Obra”. </p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Análisis comparativo de Liquidaciones de Exportadoras</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Preparación y Análisis de Presupuestos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Preparación y Análisis de Cash Flow</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Análisis de estados de resultados y sus desviaciones</p>
                         </div>
 
@@ -232,24 +235,24 @@
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="300">
                     <div class="header">
-                        <img src="{{asset('')}}/images/servicio-rrss.png">
+                        <img src="{{asset('')}}/images/servicio-rrss.png" alt="Recursos Humanos">
                         <h5>Recursos Humanos</h5>
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Redacción de contratos individuales y pactos colectivos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Proceso de cálculo de remuneraciones y leyes sociales</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Desvinculaciones y elaboración de finiquitos.</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Redacción de reglamentos internos.</p>
                         </div>
                     </div>
@@ -257,32 +260,32 @@
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="600">
                     <div class="header">
-                        <img src="{{asset('images/servicio-bi.png')}}">
+                        <img src="{{asset('images/servicio-bi.png')}}" src="inteligencia de negocios">
                         <h5>Inteligencia de Negocios</h5>
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Indicadores de Rendimientos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Reportes y Análisis especializados.</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Análisis y evaluación de Costos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Integración de datos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Apoyar la planificación financiera y la realización de presupuestos</p>
                         </div>
                         <div class="check">
-                            <img src="{{asset('/images/check.png')}}">
+                            <img src="{{asset('/images/check.png')}}" alt="icon check">
                             <p>Analizar el rendimiento de las inversiones</p>
                         </div>
 
@@ -357,7 +360,7 @@
         <div class="testimonio-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200" >
             <div class="item">
                 <div class="img">
-                    <img src=" {{asset('/images/test-1.jpg')}}" alt="">
+                    <img src=" {{asset('/images/test-1.jpg')}}" alt="Jaime Berenguer">
                 </div>
                 <h4>
                     “Con AgroQlik obtengo datos,
@@ -554,25 +557,25 @@
             <div class="items">
                 <!-- Item -->
                 <div class="item itemm card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
-                    <img src="         {{asset('/images/icon-cereza.png')}}">
+                    <img src="{{asset('/images/icon-cereza.png')}}" alt="icono cereza">
                     <h5>160 Hás</h5>
                     <p class="color-green">Cerezos</p>
                 </div>
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="200">
-                    <img src="         {{asset('/images/icon-kiwi.png')}}">
+                    <img src="{{asset('/images/icon-kiwi.png')}}" alt="icono kiwi">
                     <h5>180 Hás</h5>
                     <p class="color-green">Kiwi</p>
                 </div>
                 <!-- Item -->
                 <div class="item itemm card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="400">
-                    <img src="         {{asset('/images/icon-uva.png')}}">
+                    <img src="{{asset('/images/icon-uva.png')}}" alt="icono uva">
                     <h5>632 Hás</h5>
                     <p class="color-green">Viñas</p>
                 </div>
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="600">
-                    <img src="         {{asset('/images/icon-manzana.png')}}">
+                    <img src="{{asset('/images/icon-manzana.png')}}" alt="icono manzana">
                     <h5>720 Hás</h5>
                     <p class="color-green">Manzanos</p>
                 </div>
@@ -584,9 +587,9 @@
     <!-- CTA -->
     <section class="cta">
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
-                <h1>Solicite su prueba gratis por 30 días.</h1>
+                <h2>Solicite su prueba gratis por 30 días.</h2>
                 <a href="" class="button button-plan-prueba">Solicitar Aquí</a>
-                <a href="https://wa.me/56966070874" style="margin-left: 10px" class="button">Contacte a un asesor</a>
+                <a href="https://wa.me/56966070874/?text=Me%20interesa%20un%20plan%20de%20AgroQlik" style="margin-left: 10px" class="button">Contacte a un asesor</a>
         </div>
     </section>
 
