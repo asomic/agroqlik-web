@@ -728,6 +728,7 @@ a {
   background-color: #5FAE31;
   position: absolute;
   top: 0;
+  z-index: 99999;
 }
 .info-header .info-header-inner {
   color: white;
