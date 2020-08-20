@@ -142,7 +142,8 @@
                         <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Descubre ¿Qué esta pasando? y ¿Porqué?. --}}
-                            Descubra qué está pasando y porqué.
+                            {{-- Descubra qué está pasando y porqué. --}}
+                            Controle la información y rendimiento de su Contratista
                         </p>
                     </div>
                     <div class="check">
@@ -344,8 +345,8 @@
                             Senior en Recursos Humanos en empresa de retail y Asistente en Viña “Requingua”.
                         </p> --}}
                         <div class="rrss">
-                            {{-- <a href="https://linkedin.com"><img src="{{asset('/images/icon-linkedin.png')}}"
-                                    alt="LinkedIn"></a> --}}
+                            <a href="https://www.linkedin.com/in/susana-%C3%A1lvarez-26025b1ab"><img src="{{asset('/images/icon-linkedin.png')}}"
+                                    alt="LinkedIn"></a>
                                     <a href="mailto:susana.alvarez@agroqlik.cl"><img src=" {{asset('/images/icon-email.png')}}"
                                         alt="Correo"></a>
                         </div>
