@@ -142,6 +142,13 @@
                         <img src="{{asset('/images/check.png')}}" alt="check icon">
                         <p>
                             {{-- Descubre ¿Qué esta pasando? y ¿Porqué?. --}}
+                            Descubra qué está pasando y porqué.
+                        </p>
+                    </div>
+                    <div class="check">
+                        <img src="{{asset('/images/check.png')}}" alt="check icon">
+                        <p>
+                            {{-- Descubre ¿Qué esta pasando? y ¿Porqué?. --}}
                             {{-- Descubra qué está pasando y porqué. --}}
                             Controle la información y rendimiento de su Contratista
                         </p>
