@@ -1184,7 +1184,7 @@ section.hero div.hero-inner div.data p {
 }
 @media (min-width: 1600px) {
   section.hero {
-    background-position: 100% 14vw;
+    background-position: 100% 100%;
   }
   section.hero div.hero-inner {
     padding-top: 220px;
