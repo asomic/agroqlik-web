@@ -13,12 +13,21 @@
         justify-content: space-between
         justify-content: center
         max-width: 1224px
+        padding: 6px 0px
         p
             text-align: center
             width: 100%
             font-size: 15px
+            font-size: 14px
+            margin: 0
+            line-height: 110%
             a
                 color: white
+                font-weight: bold
+                opacity: 1
+                transition: all ease 0.3s
+                &:hover
+                    opacity: 0.8
 
 @media (min-width: 760px)
     .info-header
@@ -56,6 +65,7 @@
         .info-header-inner
             padding: 10px 0px
             max-width: 1040px
+            max-width: 1090px
             p
                 a
 
@@ -102,6 +112,7 @@ header
         align-content: space-between
         padding-top: 34px
         padding-top: 54px
+        padding-top: 66px
         a.logo
             img
                 width: 130px
@@ -167,6 +178,7 @@ header
         .header-inner
             // padding-top: 44px
             padding-top: 58px
+            padding-top: 64px
             a.logo
                 img
                     width: 130px
@@ -185,8 +197,10 @@ header
 
 @media (min-width: 1024px)
     header
+        height: 116px
         &.on-down
             height: 84px
+            // height: 88px
             .header-inner
                 padding-top: 0px
         .header-inner
@@ -229,10 +243,12 @@ header
 
 @media (min-width: 1200px)
     header
+        height: 120px
         &.on-down
             .header-inner
         .header-inner
             max-width: 1224px
+            max-width: 1280px
             // max-width: 1260px
             a.logo
                 img

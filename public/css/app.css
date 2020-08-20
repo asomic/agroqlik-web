@@ -739,14 +739,24 @@ a {
   justify-content: space-between;
   justify-content: center;
   max-width: 1224px;
+  padding: 6px 0px;
 }
 .info-header .info-header-inner p {
   text-align: center;
   width: 100%;
   font-size: 15px;
+  font-size: 14px;
+  margin: 0;
+  line-height: 110%;
 }
 .info-header .info-header-inner p a {
   color: white;
+  font-weight: bold;
+  opacity: 1;
+  transition: all ease 0.3s;
+}
+.info-header .info-header-inner p a:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 760px) {
@@ -774,6 +784,7 @@ a {
   .info-header .info-header-inner {
     padding: 10px 0px;
     max-width: 1040px;
+    max-width: 1090px;
   }
 }
 @media (min-width: 1440px) {
@@ -819,6 +830,7 @@ header .header-inner {
   align-content: space-between;
   padding-top: 34px;
   padding-top: 54px;
+  padding-top: 66px;
 }
 header .header-inner a.logo img {
   width: 130px;
@@ -892,12 +904,16 @@ header.is-fixed .header-inner {
   }
   header .header-inner {
     padding-top: 58px;
+    padding-top: 64px;
   }
   header .header-inner a.logo img {
     width: 130px;
   }
 }
 @media (min-width: 1024px) {
+  header {
+    height: 116px;
+  }
   header.on-down {
     height: 84px;
   }
@@ -948,8 +964,12 @@ header.is-fixed .header-inner {
   }
 }
 @media (min-width: 1200px) {
+  header {
+    height: 120px;
+  }
   header .header-inner {
     max-width: 1224px;
+    max-width: 1280px;
   }
   header .header-inner a.logo img {
     width: 130px;
@@ -1028,6 +1048,7 @@ section.hero div.hero-inner {
   margin-left: auto;
   margin-right: auto;
   padding-top: 120px;
+  padding-top: 132px;
   padding-bottom: 46px;
 }
 section.hero div.hero-inner div.img {
@@ -1067,6 +1088,7 @@ section.hero div.hero-inner div.data p {
     justify-content: space-between;
     align-items: center;
     padding-top: 130px;
+    padding-top: 136px;
     padding-bottom: 60px;
   }
   section.hero div.hero-inner div.img {
@@ -1128,6 +1150,7 @@ section.hero div.hero-inner div.data p {
     padding-top: 162px;
     width: 100%;
     max-width: 1220px;
+    max-width: 1280px;
     padding-bottom: 94px;
   }
   section.hero div.hero-inner div.img {
@@ -1234,6 +1257,10 @@ section.presentacion .presentacion-inner div.card div.item div.title h5 {
 @media (min-width: 1200px) {
   section.presentacion .presentacion-inner {
     max-width: 980px;
+    max-width: 1280px;
+  }
+  section.presentacion .presentacion-inner div.card {
+    width: 32%;
   }
 }
 @media (max-width: 1024px) {
@@ -1288,7 +1315,7 @@ section.the-app div.the-app-inner {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 72%;
   padding-bottom: 80px;
   padding-bottom: 60px;
 }
@@ -1566,6 +1593,14 @@ section.servicios div.servicios-inner div.items div.item div.checks div.check im
 @media (min-width: 1600px) {
   section.servicios div.servicios-inner {
     max-width: 1140px;
+  }
+}
+@media (min-width: 1200px) {
+  section.servicios div.servicios-inner {
+    max-width: 1180px;
+  }
+  section.servicios div.servicios-inner h2 {
+    width: 54%;
   }
 }
 @media (max-width: 1024px) {
@@ -1952,6 +1987,7 @@ section.planes-wrapper div.planes-inner {
   padding-bottom: 52px;
   width: 100%;
   max-width: 1160px;
+  max-width: 1200px;
 }
 section.planes-wrapper div.planes-inner h2 {
   color: #85CB33;

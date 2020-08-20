@@ -3,21 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- viewport Detecta que se tiene que adaptar la pantalla a movil  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <!-- #Fin viewport -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AgroQlik - Aplicación Movil para Profesionales del Agro</title>
-    <!-- Favicons -->
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MW96L82');</script>
-    <!-- End Google Tag Manager -->
+    <!-- OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AgroQlik - Aplicación Movil para Profesionales del Agro" />
+    <meta property="og:description" content="AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones." />
+    <meta property="og:image" content="https://agroqlik.cl/images/og-facebook.png" />
+    <meta property="og:url" content="https://agroqlik.cl" />
+    <meta content="summary" name="twitter:card">
+    <meta name="twitter:title" content="AgroQlik - Aplicación Movil para Profesionales del Agro" />
+    <meta name="twitter:description" content="AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones." />
+    <meta name="twitter:url" content="https://agroqlik.cl" />
+    <meta name="twitter:image" content="https://agroqlik.cl/images/og-twitter.jpg" />
     
+    <!-- Favicons -->    
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ asset('/favicons/apple-touch-icon-57x57.png') }}" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('/favicons/apple-touch-icon-114x114.png') }}" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('/favicons/apple-touch-icon-72x72.png') }}" />
@@ -33,7 +35,6 @@
     <link rel="icon" type="image/png" href="{{ asset('/favicons/favicon-16x16.png') }}" sizes="16x16" />
     <link rel="icon" type="image/png" href="{{ asset('/favicons/favicon-128.png') }}" sizes="128x128" />
 
-{{--  elementos meta son etiquetas HTML que se incorporan en el encabezado de una página web --}}
     <meta name="application-name" content="AgroQlik"/>
     <meta name="msapplication-TileColor" content="#FFFFFF"/>
     <meta name="msapplication-TileImage" content="{{ asset('/favicons/mstile-144x144.png') }}" />
@@ -46,14 +47,25 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('/css/app.css')}}?v=2">
+    <link rel="stylesheet" href="{{asset('/css/app.css')}}?v=3">
+    <!-- Fin Estilos -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MW96L82');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body class="site-wrapper">
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW96L82"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     {{-- UP --}}
     <div class="goToUp">
         <img src="{{asset('/images/up.svg')}}" class="up" alt="">
