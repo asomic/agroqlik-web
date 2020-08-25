@@ -13,7 +13,7 @@
                 {{-- <h6>Captura de Mano de Obra</h6> --}}
                 <h1 class="hero">
                     {{-- APP Captura de mano de obra --}}
-                    Digitaliza tus labores en terreno
+                    Digitaliza tus labores<br>en terreno
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}                    
                     {{-- <span class="color-green">
@@ -23,44 +23,13 @@
                     AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
+                <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Demo Gratis</a>
                 <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a>
             </div>
         </div>
     </section>
-    <!-- Presentación -->
-    <section class="presentacion">
-        <div class="presentacion-inner paddings-l-r"  id="presentacion">
-            <div class="card">
-                {{-- <h2>Aplicacion para<span class="color-green"> Profesionales del Agro</span></h2> --}}
-                {{-- <h2>La Mano de Obra representa alrededor del <span class="color-green">60% al 70% del Costo Total.</span></h2> --}}
-                {{-- <h2>Tareas en terreno más <span class="color-green">simples y eficaces</span></h2> --}}
-                <h2>Ten el control de tu mano de obra en terreno</h2>
-                <!-- Item -->
-                <div class="item">
-                    <div class="title">
-                        <img src="{{asset('/images/hoja.png')}}" alt="Icono AgroQlik">
-                        <h5>Herramientas Digitales</h5>
-                    </div>
-                    <p>
-                        {{-- AgroQlik, APP de Captura de Mano de Obra. --}}
-                        Herramientas en terreno y oficina para conocer y gestionar lo que sucede con su personal
-                    </p>
-                </div>
-                <!-- Item -->
-                <div class="item">
-                    <div class="title">
-                        <img src=" {{asset('images/hoja.png')}}" alt="Icono AgroQlik">
-                        <h5>Equipo humano</h5>
-                    </div>
-                    <p>
-                       {{-- Profesionales con mas de 20 años de experiencia en el agro. --}}
-                       Asesoría y conocimiento de profesionales con más de 20 años de experiencia en el Agro.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
+    @include('layouts.presentacion')
 
     <!-- Presentacion de la App -->
     <section class="the-app">
@@ -203,7 +172,8 @@
         <div class="servicios-inner paddings-l-r" id="servicio">
             <h2 data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 {{-- Con AgroQlik tendrá acceso a servicios y asesorías especializadas en las siguientes áreas --}}
-                Servicios y asesorías especializadas incluidas
+                {{-- Servicios y asesorías especializadas incluidas --}}
+                Complementa la App con estos servicios
             </h2>
             <div class="items">
                 <!-- Item -->
@@ -438,7 +408,7 @@
                             Valor normal 1,2 UF
                         </p>
                         <div>
-                            <a href="#" class="button button-plan-prueba">Solicita aquí</a>
+                            <a href="#" class="button button-plan-prueba">Demo Gratis</a>
                         </div>
                     </div>
                 </div>
@@ -485,7 +455,7 @@
                             Valor normal 2,5 UF
                         </p>
                         <div>
-                            <a href="#" class="button button-plan-prueba">Solicita aquí</a>
+                            <a href="#" class="button button-plan-prueba">Demo Gratis</a>
                         </div>
                     </div>
                 </div>
@@ -532,7 +502,7 @@
                             Valor normal 4 UF
                         </p>
                         <div>
-                            <a href="#" class="button button-plan-prueba">Solicita aquí</a>
+                            <a href="#" class="button button-plan-prueba">Demo Gratis</a>
                         </div>
                     </div>
                 </div>

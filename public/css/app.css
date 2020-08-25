@@ -421,6 +421,11 @@ a {
   border: solid 1px #5FAE31;
   color: #5FAE31;
 }
+.button.button-plan-prueba {
+  background-color: #F66F03 !important;
+  border: none !important;
+  color: white !important;
+}
 
 @media (max-width: 640px) {
   .button {
@@ -532,9 +537,9 @@ a {
 }
 .modal .modal-inner .img {
   width: 41%;
-  background-image: url("../images/campo-5.jpg");
+  background-image: url("../images/campo-3.jpg");
   background-size: cover;
-  background-position: 40% 50%;
+  background-position: center;
 }
 .modal .modal-inner .data {
   width: 59%;
@@ -722,6 +727,11 @@ a {
     height: auto;
   }
 }
+/* Font variables */
+.font-bold {
+  font-weight: 700;
+}
+
 /* imports */
 .info-header {
   width: 100%;
@@ -1081,6 +1091,11 @@ section.hero div.hero-inner div.data p {
   margin-bottom: 26px;
   margin-bottom: 36px;
 }
+section.hero div.hero-inner div.data .button.button-plan-prueba {
+  background-color: #F66F03;
+  border: none;
+  color: white;
+}
 
 @media (min-width: 768px) {
   section.hero div.hero-inner {
@@ -1151,16 +1166,16 @@ section.hero div.hero-inner div.data p {
     width: 100%;
     max-width: 1220px;
     max-width: 1280px;
-    padding-bottom: 94px;
+    padding-bottom: 68px;
   }
   section.hero div.hero-inner div.img {
     width: 50%;
-    margin-right: -28px;
-    margin-right: -36px;
+    margin-right: -42px;
   }
   section.hero div.hero-inner div.data {
     width: 42%;
     box-sizing: border-box;
+    padding-bottom: 1em;
   }
   section.hero div.hero-inner div.data h6 {
     font-size: 18px;
@@ -1175,6 +1190,7 @@ section.hero div.hero-inner div.data p {
   }
   section.hero div.hero-inner div.data p {
     line-height: 145%;
+    margin-bottom: 2.2em;
   }
 }
 @media (min-width: 1440px) {
@@ -1359,11 +1375,10 @@ section.the-app div.the-app-inner div.data div.buttons {
 }
 section.the-app div.the-app-inner div.data div.buttons a {
   margin-right: 8px;
-  opacity: 1;
-  transition: all ease 0.3s;
+  transition: all ease 0.6s;
 }
 section.the-app div.the-app-inner div.data div.buttons a:hover {
-  opacity: 0.8;
+  transform: translateY(-2px);
 }
 section.the-app div.the-app-inner div.data div.buttons a img {
   height: 42px;
@@ -1508,7 +1523,7 @@ section.the-webapp div.the-webapp-inner div.img img {
   }
 }
 section.servicios {
-  background-image: url("../images/campo-3.jpg");
+  background-image: url("../images/campo-5.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
