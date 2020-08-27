@@ -3,7 +3,7 @@
         <div class="footer-inner paddings-l-r">
             <div class="datos-wrapper">
                 <div class="item">
-                    <img src="{{asset('/images/logo-inv.png')}}">
+                    <img src="{{asset('/images/logo-inv.png')}}" alt="AgroQlik">
                 </div>
 
                 <div class="item">
@@ -34,9 +34,9 @@
         </div>
         <div class="creditos">
             <div class="rrss">
-                <a href="https://facebook.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/facebook.svg') }}" alt=""></a>
-                <a href="https://instagram.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/instagram.svg') }}" alt=""></a>
-                <a href="https://www.linkedin.com/company/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/linkedin.svg') }}" alt=""></a>
+                <a href="https://facebook.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/facebook.svg') }}" alt="Facebook"></a>
+                <a href="https://instagram.com/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/instagram.svg') }}" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/company/agroqlik" target="_blank"><img src="{{ asset('/images/rrss/linkedin.svg') }}" alt="LinkedIn"></a>
             </div>
             <p>
                 Hecho por <a href="https://asomic.com"><img src="{{asset('/images/asomic.png')}}" alt="asomic"></a> en Curicó,

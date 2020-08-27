@@ -365,25 +365,25 @@
                 <!-- Card Plan -->
                 <div class="item card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="150">
                     <div class="header">
-                        <img src="         {{asset('')}}/images/hoja.png">
+                        <img src="         {{asset('')}}/images/hoja.png" alt="AgroQlik">
                         <h4>Plus</h4>
                         {{-- <h3>Agricultor Plus</h3> --}}
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src="  {{asset('/images/check.png')}}">
+                            <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 25 trabajadores</p>
                         </div>
                         <div class="check">
-                            <img src="  {{asset('/images/check.png')}}">
+                            <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Fundo</p>
                         </div>
                         <div class="check">
-                            <img src="  {{asset('/images/check.png')}}">
+                            <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 2 usuarios capturadores</p>
                         </div>
                         <div class="check">
-                            <img src="  {{asset('/images/check.png')}}">
+                            <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Usuario administrador (plataforma web)</p>
                         </div>
                         {{-- <div class="check">
@@ -391,15 +391,15 @@
                             <p>1 Usuario gestor (acceso a reportes)</p>
                         </div> --}}
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="         {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (captura de mano de obra)</p>
                         </div>                        
                         <div class="check">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="         {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (centros de costos)</p>
                         </div>
                         <div class="check" style="visibility: hidden">
-                            <img src="         {{asset('/images/check.png')}}">
+                            <img src="         {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (centros de costos)</p>
                         </div>
                     </div>
@@ -417,36 +417,36 @@
                 <!-- Card Plan -->
                 <div class="item card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="300">
                     <div class="header">
-                        <img src="{{asset('/images/hoja.png')}}">
+                        <img src="{{asset('/images/hoja.png')}}" alt="AgroQlik">
                         <h4>Profesional</h4>
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 60 trabajadores</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 2 Fundos</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 3 usuarios caputadores</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Usuario administrador (plataforma web)</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Usuario gestor (acceso a reportes)</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (captura de mano de obra)</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (centros de costos)</p>
                         </div>
                     </div>
@@ -464,36 +464,36 @@
                 <!-- Card Plan -->
                 <div class="item card" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-delay="450">
                     <div class="header">
-                        <img src="         {{asset('/images/hoja.png')}}">
+                        <img src="         {{asset('/images/hoja.png')}}" alt="AgroQlik">
                         <h4>Business</h4>
                     </div>
                     <div class="checks">
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Desde 61 trabajadores</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 3 Fundos</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>Hasta 5 usuarios capturadores</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>2 Usuarios administrador (plataforma web)</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>2 Usuarios gestor (acceso a reportes</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (captura de mano de obra)</p>
                         </div>
                         <div class="check">
-                            <img src=" {{asset('/images/check.png')}}">
+                            <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
                             <p>1 Reporte diario (centros de costos)</p>
                         </div>
                     </div>

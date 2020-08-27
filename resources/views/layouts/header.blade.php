@@ -45,6 +45,7 @@
     <meta name="msapplication-square310x310logo" content="{{ asset('/favicons/mstile-310x310.png') }}" />
 
     <!-- Estilos -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -70,7 +71,7 @@
 
     {{-- UP --}}
     <div class="goToUp">
-        <img src="{{asset('/images/up.svg')}}" class="up" alt="">
+        <img src="{{asset('/images/up.svg')}}" class="up" alt="Agroqlik">
     </div>
 
     <main class="site-main">
@@ -82,7 +83,7 @@
                 <div class="data">
                     <div class="x"></div>
                     <div class="header">
-                        <img src="{{asset('/images/hoja.png')}}">
+                        <img src="{{asset('/images/hoja.png')}}" alt="AgroQlik">
                         <h3>¿Como obtener <span class="color-green">AgroQlik</span>?</h3>
                     </div>
                     <div class="cards">
@@ -141,7 +142,7 @@
                 <div class="data">
                     <div class="x"></div>
                     <div class="header">
-                        <img src=" {{asset('/images/hoja.png')}}">
+                        <img src=" {{asset('/images/hoja.png')}}" alt="AgroQlik">
                         <h3>Solicita <span class="color-green">AgroQlik</span></h3>
                     </div>
 
@@ -169,7 +170,7 @@
                 <div class="data">
                     <div class="x"></div>
                     <div class="header">
-                        <img src=" {{asset('/images/hoja.png')}}">
+                        <img src=" {{asset('/images/hoja.png')}}" alt="AgroQlik">
                         <h3>Solicita <span class="color-green">AgroQlik</span></h3>
                     </div>
                     <div class="text-center">
@@ -195,7 +196,7 @@
         <header>
             <div class="header-inner paddings-l-r" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <a href="/" class="logo">
-                    <img src=" {{asset('/images/logo.png')}}" alt="Ir al Inicio">
+                    <img src="{{asset('/images/logo.png')}}" alt="Ir al Inicio">
                 </a>
 
                 <button class="hamburger hamburger--collapse" type="button">
