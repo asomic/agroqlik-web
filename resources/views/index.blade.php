@@ -20,7 +20,9 @@
                     Tenga el control</span><br> de su mano de obra en terreno --}}
                 </h1>
                 <p>
-                    AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.
+                    AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, 
+                    {{-- generando información útil para la toma de decisiones. --}}
+                    controlando los costos para mano de obra.
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
                 <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Demo Gratis</a>

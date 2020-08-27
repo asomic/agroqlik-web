@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AgroQlik - Aplicación Movil para Profesionales del Agro</title>
+    <meta name="description" content="AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.">
 
     <!-- OG -->
     <meta property="og:type" content="website" />

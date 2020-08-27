@@ -1186,11 +1186,12 @@ section.hero div.hero-inner div.data .button.button-plan-prueba {
   section.hero div.hero-inner div.data h1 {
     font-size: 40px;
     font-size: 42px;
+    font-size: 45px;
     margin-bottom: 24px;
   }
   section.hero div.hero-inner div.data p {
     line-height: 145%;
-    margin-bottom: 2.2em;
+    margin-bottom: 2.3em;
   }
 }
 @media (min-width: 1440px) {
@@ -1206,6 +1207,9 @@ section.hero div.hero-inner div.data .button.button-plan-prueba {
     padding-top: 220px;
     padding-bottom: 134px;
     max-width: 1200px;
+  }
+  section.hero div.hero-inner div.data h1 {
+    font-size: 47px;
   }
 }
 section.presentacion {
