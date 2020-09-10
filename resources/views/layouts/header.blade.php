@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <a href="https://admin.agroqlik.cl/" class="button outline">Iniciar Sesión</a>
+                    <a href="https://clientes.agroqlik.cl/login" class="button outline">Iniciar Sesión</a>
                     {{-- <a href="#" class="button left button-plan-prueba">Pruebe Gratis</a> --}}
                     <a href="#" class="button left button-plan-prueba">Demo Gratis</a>
 
