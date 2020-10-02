@@ -20,8 +20,8 @@ section.planes-wrapper
         padding-top: 110px
         padding-bottom: 52px
         width: 100%
-        max-width: 1160px
-        max-width: 1200px
+        // max-width: 1160px
+        max-width: 1280px
         h2
             color: $green
             text-align: center
@@ -50,8 +50,10 @@ section.planes-wrapper
                 margin: auto          
         div.items
             display: flex  
-            justify-content: space-between     
+            justify-content: space-between
+            flex-direction: row
             div.item
+                align-self: stretch
                 background-color: white   
                 box-shadow: 7px 10px 30px rgba(13, 93, 86, 0.12)
                 border-radius: 6px
@@ -62,20 +64,18 @@ section.planes-wrapper
                     left: 36px
                     right: 36px
                     bottom: 34px
-                display: flex
-                flex-wrap: wrap
-                align-content: stretch
                 div.header                    
                     display: flex
                     justify-content: center
                     // align-items: flex-start
-                    align-content: center
                     align-items: center
+                    align-content: flex-start
                     width: 100%
                     margin-bottom: 30px
                     margin-bottom: 34px
                     margin-left: -6px
                     text-align: center
+                    align-self: flex-start
                     // height: 40px
                     img
                        width: 10%
@@ -89,10 +89,12 @@ section.planes-wrapper
                         // text-align: center
                         // width: 40% 
                 div.checks
+                    box-sizing: border-box
                     // display: flex
                     // flex-wrap: wrap
                     // align-items: flex-start
                     // align-content: flex-start
+                    // height: 100%
                     div.check
                         display: flex 
                         margin-bottom: 18px
@@ -107,10 +109,8 @@ section.planes-wrapper
                             margin-bottom: 10px
                 .plan-footer
                     width: 100%
-                    display: flex
-                    flex-wrap: wrap
-                    justify-content: center
-                    align-content: flex-end
+                    // flex: 1
+                    align-self: flex-end
                     h4
                         color: $blue
                         text-align: center
@@ -138,6 +138,16 @@ section.planes-wrapper
                             &:hover
                                 background-color: $dark-green
                                 border: solid 1px $dark-green
+                // &:nth-child(1)
+                //     div.checks
+                //         div.check
+                //             &:last-child
+                //                 margin-bottom: 84px
+                // &:nth-child(2)
+                //     div.checks
+                //         div.check
+                //             &:last-child
+                //                 margin-bottom: 64px
         div.plan-full
             div.plan-full-inner
                 background-color: white   
@@ -186,12 +196,12 @@ section.planes-wrapper
 @media (min-width: 1400px)
     section.planes-wrapper
         div.planes-inner
-            max-width: 1260px
+            max-width: 1400px
 
 @media (min-width: 1600px)
     section.planes-wrapper
         div.planes-inner
-            max-width: 1140px
+            max-width: 1200px
 
 // Cuando sea menor a 100px
 @media (max-width: 1024px)

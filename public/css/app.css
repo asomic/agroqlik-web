@@ -455,8 +455,8 @@ a {
 }
 @media (min-width: 1200px) {
   .paddings-l-r {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 @media (min-width: 1360px) {
@@ -2005,8 +2005,7 @@ section.planes-wrapper div.planes-inner {
   padding-top: 110px;
   padding-bottom: 52px;
   width: 100%;
-  max-width: 1160px;
-  max-width: 1200px;
+  max-width: 1280px;
 }
 section.planes-wrapper div.planes-inner h2 {
   color: #85CB33;
@@ -2037,8 +2036,10 @@ section.planes-wrapper div.planes-inner h2::after {
 section.planes-wrapper div.planes-inner div.items {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 section.planes-wrapper div.planes-inner div.items div.item {
+  align-self: stretch;
   background-color: white;
   box-shadow: 7px 10px 30px rgba(13, 93, 86, 0.12);
   border-radius: 6px;
@@ -2048,20 +2049,18 @@ section.planes-wrapper div.planes-inner div.items div.item {
   padding-left: 36px;
   padding-right: 36px;
   padding-bottom: 34px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.header {
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
+  align-content: flex-start;
   width: 100%;
   margin-bottom: 30px;
   margin-bottom: 34px;
   margin-left: -6px;
   text-align: center;
+  align-self: flex-start;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.header img {
   width: 10%;
@@ -2071,6 +2070,9 @@ section.planes-wrapper div.planes-inner div.items div.item div.header img {
 section.planes-wrapper div.planes-inner div.items div.item div.header h3, section.planes-wrapper div.planes-inner div.items div.item div.header h4 {
   font-weight: 700;
   color: #005377;
+}
+section.planes-wrapper div.planes-inner div.items div.item div.checks {
+  box-sizing: border-box;
 }
 section.planes-wrapper div.planes-inner div.items div.item div.checks div.check {
   display: flex;
@@ -2088,10 +2090,7 @@ section.planes-wrapper div.planes-inner div.items div.item div.checks div.check:
 }
 section.planes-wrapper div.planes-inner div.items div.item .plan-footer {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-end;
+  align-self: flex-end;
 }
 section.planes-wrapper div.planes-inner div.items div.item .plan-footer h4 {
   color: #005377;
@@ -2167,12 +2166,12 @@ section.planes-wrapper div.planes-inner div.plan-full div.plan-full-inner .butto
 
 @media (min-width: 1400px) {
   section.planes-wrapper div.planes-inner {
-    max-width: 1260px;
+    max-width: 1400px;
   }
 }
 @media (min-width: 1600px) {
   section.planes-wrapper div.planes-inner {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 @media (max-width: 1024px) {
