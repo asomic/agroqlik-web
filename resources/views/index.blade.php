@@ -26,7 +26,7 @@
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
                 {{-- <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Demo Gratis</a> --}}
-                <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Descargar Brochure</a>
+                <a href="{{ asset('/files/brochure.pdf') }}" class="button highlight" target="_blank" style="margin-right: 4px">Descargar Brochure</a>
                 <a href="#" class="button">Ver Video</a>
                 {{-- <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a> --}}
             </div>
@@ -179,6 +179,9 @@
                 {{-- Servicios y asesorías especializadas incluidas --}}
                 Complementa la App con estos servicios
             </h2>
+            <p class="desc">
+                Si quieres seguir profesionalizando tu empresa, cotiza nuestros servicios adicionales, tenemos los complementos que necesitas.
+            </p>
             <div class="items">
                 <!-- Item -->
                 <div class="item card" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
