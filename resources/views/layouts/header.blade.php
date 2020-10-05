@@ -85,6 +85,9 @@
         <img src="{{asset('/images/up.svg')}}" class="up" alt="Agroqlik">
     </div>
 
+    {{-- Botón Whatsapp --}}
+    <a class="whatsapp-button" href="https://wa.me/56966070874/?text=Me%20interesa%20un%20plan%20de%20AgroQlik"></a>
+
     <main class="site-main">
 
         <!-- Modal Como obtener -->
