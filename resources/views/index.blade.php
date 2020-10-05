@@ -27,7 +27,10 @@
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
                 {{-- <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Demo Gratis</a> --}}
                 <a href="{{ asset('/files/brochure.pdf') }}" class="button highlight" target="_blank" style="margin-right: 4px">Descargar Brochure</a>
-                <a href="#" class="button">Ver Video</a>
+                <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=gXN44T0HxRo" class="button">
+                    <img src="{{ asset('/images/ico-video.svg') }}" alt="Ver Video">
+                    Ver Video
+                </a>
                 {{-- <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a> --}}
             </div>
         </div>

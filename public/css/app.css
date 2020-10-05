@@ -433,6 +433,12 @@ a {
   border: none !important;
   color: white !important;
 }
+.button img {
+  width: 20px;
+  outline: none;
+  text-decoration: none;
+  margin-right: 4px;
+}
 
 @media (max-width: 640px) {
   .button {
