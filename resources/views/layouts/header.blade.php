@@ -51,7 +51,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     {{-- <link rel="stylesheet" href="{{asset('/css/app.css')}}?v=4"> --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="{{asset('/css/app.min.css')}}?v=4">
+    <link rel="stylesheet" href="{{asset('/css/app.min.css')}}?v=5">
     <!-- Fin Estilos -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
