@@ -2525,6 +2525,27 @@ section.cta div.cta-inner a.button.button-plan-prueba {
     margin-bottom: 32px;
   }
 }
+@media (max-width: 420px) {
+  section.cta {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  section.cta div.cta-inner {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.cta div.cta-inner h2 {
+    font-size: 32px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 32px;
+  }
+  section.cta div.cta-inner a.button {
+    margin-bottom: 12px;
+  }
+}
 footer {
   background-color: #5FAE31;
 }
