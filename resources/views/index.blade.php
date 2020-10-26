@@ -381,7 +381,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
-                            <p>Hasta 10 trabajadores</p>
+                            <p>Hasta 5 trabajadores</p>
                         </div>
                         <div class="check">
                             <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
@@ -427,7 +427,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
-                            <p>Hasta 25 trabajadores</p>
+                            <p>Hasta 20 trabajadores</p>
                         </div>
                         <div class="check">
                             <img src="  {{asset('/images/check.png')}}" alt="AgroQlik">
@@ -473,7 +473,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
-                            <p>Hasta 60 trabajadores</p>
+                            <p>Hasta 40 trabajadores</p>
                         </div>
                         <div class="check">
                             <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
@@ -519,7 +519,7 @@
                     <div class="checks">
                         <div class="check">
                             <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
-                            <p>Desde 61 trabajadores</p>
+                            <p>Desde 41 trabajadores</p>
                         </div>
                         <div class="check">
                             <img src=" {{asset('/images/check.png')}}" alt="AgroQlik">
