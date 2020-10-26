@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AgroQlik - Aplicación Movil para Profesionales del Agro</title>
-    <meta name="description" content="AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, generando información útil para la toma de decisiones.">
+    <title>AgroQlik - Software de gestión agrícola para el control de mano de obra</title>
+    <meta name="description" content="Software de gestión agrícola, desde tu móvil o web maneja el control de costos y mano de obra para la toma de decisiones de la gestión agrícola">
 
     <!-- OG -->
     <meta property="og:type" content="website" />
@@ -86,7 +86,7 @@
     </div>
 
     {{-- Botón Whatsapp --}}
-    <a class="whatsapp-button" href="https://wa.me/56966070874/?text=Me%20interesa%20un%20plan%20de%20AgroQlik"></a>
+    <a class="whatsapp-button" href="https://wa.me/56999839782/?text=Me%20interesa%20un%20plan%20de%20AgroQlik"></a>
 
     <main class="site-main">
 

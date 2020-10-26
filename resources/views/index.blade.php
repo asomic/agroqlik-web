@@ -13,16 +13,18 @@
                 {{-- <h6>Captura de Mano de Obra</h6> --}}
                 <h1 class="hero">
                     {{-- APP Captura de mano de obra --}}
-                    Digitaliza tus labores<br>en terreno
+                    {{-- Digitaliza tus labores<br>en terreno --}}
+                    Software de <span class="color-green">gestión agrícola</span> para el control de mano de obra
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}                    
                     {{-- <span class="color-green">
                     Tenga el control</span><br> de su mano de obra en terreno --}}
                 </h1>
                 <p>
-                    AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, 
-                    {{-- generando información útil para la toma de decisiones. --}}
-                    controlando los costos para mano de obra.
+                    Registra y centraliza todos los datos de tus trabajadores y labores agrícola
+                    {{-- Software de gestión agrícola. Desde tu móvil o web maneja el control de costos y mano de obra para la toma de decisiones de la gestión agrícola --}}
+                    {{-- AgroQlik® app hace simple y efectiva la gestión de trabajadores para pequeñas y grandes empresas del agro, 
+                    controlando los costos para mano de obra. --}}
                 </p>
                 {{-- Botón contacta a un asesor (whatsapp don paulo) --}}
                 {{-- <a href="#" class="button button-plan-prueba" style="margin-right: 4px">Demo Gratis</a> --}}
@@ -455,7 +457,7 @@
                     <div class="plan-footer">
                         <h4>$9.990</h4>
                         <p class="regular-price">
-                            Mensual
+                            Mensual (más IVA)
                         </p>
                         <div>
                             <a href="#" class="button button-plan-prueba">Demo Gratis</a>
@@ -501,7 +503,7 @@
                     <div class="plan-footer">
                         <h4>$19.990</h4>
                         <p class="regular-price">
-                            Mensual
+                            Mensual (más IVA)
                         </p>
                         <div>
                             <a href="#" class="button button-plan-prueba">Demo Gratis</a>
@@ -547,7 +549,7 @@
                     <div class="plan-footer">
                         <h4>$29.990</h4>
                         <p class="regular-price">
-                            Mensual
+                            Mensual (más IVA)
                         </p>
                         <div>
                             <a href="#" class="button button-plan-prueba">Demo Gratis</a>
