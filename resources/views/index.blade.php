@@ -33,7 +33,7 @@
                     <img src="{{ asset('/images/ico-video.svg') }}" alt="Ver Video">
                     Ver Video
                 </a>
-                {{-- <a href="https://wa.me/56966070874" class="button">Contacte a un asesor</a> --}}
+                {{-- <a href="https://wa.me/56989222422" class="button">Contacte a un asesor</a> --}}
             </div>
         </div>
     </section>
@@ -563,7 +563,7 @@
                     <p>
                         ¿Muchos Fundos que Digitalizar? ¿Necesitas un Mayor Alcance? Obtén Acceso full a las funcionalidades de AgroQlik.  Contactanos con tus requerimientos especiales para diseñar un plan a tu medida.
                     </p>
-                    <a href="https://wa.me/56966070874" class="button">
+                    <a href="https://wa.me/56989222422" class="button">
                         Contacte a un asesor
                     </a>
                 </div>
@@ -617,7 +617,7 @@
         <div class="cta-inner paddings-l-r" data-aos="fade" data-aos-duration="900" data-aos-easing="ease-in-out" data-aos-delay="200">
                 <h2>Solicite su prueba gratis por 30 días.</h2>
                 <a href="" class="button button-plan-prueba">Solicitar Aquí</a>
-                <a href="https://wa.me/56966070874/?text=Me%20interesa%20un%20plan%20de%20AgroQlik" style="margin-left: 10px" class="button">Contacte a un asesor</a>
+                <a href="https://wa.me/56989222422/?text=Me%20interesa%20un%20plan%20de%20AgroQlik" style="margin-left: 10px" class="button">Contacte a un asesor</a>
         </div>
     </section>
 
