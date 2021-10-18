@@ -201,7 +201,7 @@
         {{-- Info pre header --}}
         <div class="info-header">
             <div class="info-header-inner">
-                <p>Llámanos al <a href="tel:+56999839782">+56 9 9983 97 82</a></p>
+                <p>Llámanos al <a href="tel:+56989222422">+569 892 224 22</a></p>
                 <p>Contactanos en <a href="mailto:contacto@agroqlik.cl">contacto@agroqlik.cl</a></p>
             </div>
         </div>
