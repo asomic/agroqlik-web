@@ -86,7 +86,7 @@
     </div>
 
     {{-- Botón Whatsapp --}}
-    <a class="whatsapp-button" href="https://wa.me/56999839782/?text=Me%20interesa%20un%20plan%20de%20AgroQlik"></a>
+    <a class="whatsapp-button" href="https://wa.me/56989222422/?text=Me%20interesa%20un%20plan%20de%20AgroQlik"></a>
 
     <main class="site-main">
 
